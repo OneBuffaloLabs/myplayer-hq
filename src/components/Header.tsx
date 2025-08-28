@@ -1,4 +1,4 @@
-'use client'; // This is a client component
+'use client';
 
 import { useState } from 'react';
 import Link from 'next/link';
@@ -22,7 +22,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="bg-background sticky top-0 z-50">
+    <header className="bg-background sticky top-0 z-50 border-b border-accent">
       <nav className="container mx-auto flex items-center justify-between p-4">
         <Link href="/" className="flex items-center space-x-2">
           <Image
