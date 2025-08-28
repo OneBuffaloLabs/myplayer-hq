@@ -18,18 +18,18 @@ export default function TermsOfServicePage() {
 
           <h2 className="text-2xl font-bold text-text mt-8">1. Agreement to Terms</h2>
           <p>
-            By accessing and using MyPlayerHQ (the "Site"), you agree to be bound by these Terms of
-            Service and our Privacy Policy. If you do not agree with any of these terms, you are
-            prohibited from using or accessing this site. The materials contained in this website
-            are protected by applicable copyright and trademark law.
+            By accessing and using MyPlayerHQ (the &quot;Site&quot;), you agree to be bound by these
+            Terms of Service and our Privacy Policy. If you do not agree with any of these terms,
+            you are prohibited from using or accessing this site. The materials contained in this
+            website are protected by applicable copyright and trademark law.
           </p>
 
           <h2 className="text-2xl font-bold text-text mt-8">2. Use License</h2>
           <p>
             Permission is granted to temporarily download one copy of the materials (information or
-            software) on MyPlayerHQ's website for personal, non-commercial transitory viewing only.
-            This is the grant of a license, not a transfer of title, and under this license you may
-            not:
+            software) on MyPlayerHQ&apos;s website for personal, non-commercial transitory viewing
+            only. This is the grant of a license, not a transfer of title, and under this license
+            you may not:
           </p>
           <ul>
             <li>modify or copy the materials;</li>
@@ -38,13 +38,13 @@ export default function TermsOfServicePage() {
               non-commercial);
             </li>
             <li>
-              attempt to decompile or reverse engineer any software contained on MyPlayerHQ's
+              attempt to decompile or reverse engineer any software contained on MyPlayerHQ&apos;s
               website;
             </li>
             <li>remove any copyright or other proprietary notations from the materials; or</li>
             <li>
-              transfer the materials to another person or "mirror" the materials on any other
-              server.
+              transfer the materials to another person or &quot;mirror&quot; the materials on any
+              other server.
             </li>
           </ul>
           <p>
@@ -54,9 +54,9 @@ export default function TermsOfServicePage() {
 
           <h2 className="text-2xl font-bold text-text mt-8">3. Disclaimer</h2>
           <p>
-            The materials on MyPlayerHQ's website are provided on an 'as is' basis. MyPlayerHQ makes
-            no warranties, expressed or implied, and hereby disclaims and negates all other
-            warranties including, without limitation, implied warranties or conditions of
+            The materials on MyPlayerHQ&apos;s website are provided on an &apos;as is&apos; basis.
+            MyPlayerHQ makes no warranties, expressed or implied, and hereby disclaims and negates
+            all other warranties including, without limitation, implied warranties or conditions of
             merchantability, fitness for a particular purpose, or non-infringement of intellectual
             property or other violation of rights.
           </p>
@@ -71,18 +71,18 @@ export default function TermsOfServicePage() {
           <p>
             In no event shall MyPlayerHQ or its suppliers be liable for any damages (including,
             without limitation, damages for loss of data or profit, or due to business interruption)
-            arising out of the use or inability to use the materials on MyPlayerHQ's website, even
-            if MyPlayerHQ or a MyPlayerHQ authorized representative has been notified orally or in
-            writing of the possibility of such damage.
+            arising out of the use or inability to use the materials on MyPlayerHQ&apos;s website,
+            even if MyPlayerHQ or a MyPlayerHQ authorized representative has been notified orally or
+            in writing of the possibility of such damage.
           </p>
 
           <h2 className="text-2xl font-bold text-text mt-8">5. Accuracy of Materials</h2>
           <p>
-            The materials appearing on MyPlayerHQ's website could include technical, typographical,
-            or photographic errors. MyPlayerHQ does not warrant that any of the materials on its
-            website are accurate, complete or current. MyPlayerHQ may make changes to the materials
-            contained on its website at any time without notice. However, MyPlayerHQ does not make
-            any commitment to update the materials.
+            The materials appearing on MyPlayerHQ&apos;s website could include technical,
+            typographical, or photographic errors. MyPlayerHQ does not warrant that any of the
+            materials on its website are accurate, complete or current. MyPlayerHQ may make changes
+            to the materials contained on its website at any time without notice. However,
+            MyPlayerHQ does not make any commitment to update the materials.
           </p>
 
           <h2 className="text-2xl font-bold text-text mt-8">6. Links</h2>
@@ -90,7 +90,7 @@ export default function TermsOfServicePage() {
             MyPlayerHQ has not reviewed all of the sites linked to its website and is not
             responsible for the contents of any such linked site. The inclusion of any link does not
             imply endorsement by MyPlayerHQ of the site. Use of any such linked website is at the
-            user's own risk.
+            user&apos;s own risk.
           </p>
 
           <h2 className="text-2xl font-bold text-text mt-8">7. Modifications</h2>

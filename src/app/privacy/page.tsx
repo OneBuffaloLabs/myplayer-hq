@@ -18,11 +18,11 @@ export default function PrivacyPolicyPage() {
 
           <h2 className="text-2xl font-bold text-text mt-8">Introduction</h2>
           <p>
-            Welcome to MyPlayerHQ ("we," "our," or "us"). We are committed to protecting your
-            privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your
-            information when you visit our website, MyPlayerHQ. Please read this privacy policy
-            carefully. If you do not agree with the terms of this privacy policy, please do not
-            access the site.
+            Welcome to MyPlayerHQ (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are
+            committed to protecting your privacy. This Privacy Policy explains how we collect, use,
+            disclose, and safeguard your information when you visit our website, MyPlayerHQ. Please
+            read this privacy policy carefully. If you do not agree with the terms of this privacy
+            policy, please do not access the site.
           </p>
 
           <h2 className="text-2xl font-bold text-text mt-8">Information We Collect</h2>
@@ -71,8 +71,9 @@ export default function PrivacyPolicyPage() {
           </p>
           <p>
             Our site may use third-party services like Google Analytics and Google AdSense, which
-            use cookies to serve ads based on a user's prior visits to our website or other
-            websites. You may opt out of personalized advertising by visiting Google's Ad Settings.
+            use cookies to serve ads based on a user&apos;s prior visits to our website or other
+            websites. You may opt out of personalized advertising by visiting Google&apos;s Ad
+            Settings.
           </p>
 
           <h2 className="text-2xl font-bold text-text mt-8">Third-Party Websites</h2>
@@ -104,7 +105,8 @@ export default function PrivacyPolicyPage() {
           <p>
             We may update this Privacy Policy from time to time in order to reflect, for example,
             changes to our practices or for other operational, legal, or regulatory reasons. We will
-            notify you of any changes by updating the "Last Updated" date of this Privacy Policy.
+            notify you of any changes by updating the &quot;Last Updated&quot; date of this Privacy
+            Policy.
           </p>
 
           <h2 className="text-2xl font-bold text-text mt-8">Contact Us</h2>
