@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Color Palette - Court Vision Theme */
+  --color-primary: #f9a03f; /* Basketball Orange */
+  --color-accent: #9d4edd; /* Electric Purple */
+  --color-background: #1a1a1d; /* Rich Charcoal */
+  --color-text: #e0e0e0; /* Light Gray */
+}
