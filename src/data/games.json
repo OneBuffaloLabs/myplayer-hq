@@ -1,0 +1,22 @@
+[
+  {
+    "title": "NBA 2K26",
+    "slug": "nba-2k26",
+    "status": "active",
+    "logoUrl": "/assets/images/games/2k26-logo.webp"
+  },
+  {
+    "title": "NBA 2K25",
+    "slug": "nba-2k25",
+    "status": "legacy",
+    "logoUrl": "/assets/images/games/2k25-logo.webp",
+    "subtitle": "More Info Soon"
+  },
+  {
+    "title": "NBA 2K27",
+    "slug": "nba-2k27",
+    "status": "future",
+    "logoUrl": "/assets/images/games/2k27-logo.webp",
+    "subtitle": "Coming Next Year"
+  }
+]
