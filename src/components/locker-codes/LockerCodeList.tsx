@@ -53,7 +53,7 @@ export const LockerCodeList = ({ codes }: LockerCodeListProps) => {
         <table className="min-w-full bg-[#1F1F22] border border-accent/20 rounded-lg">
           <thead className="border-b border-accent/20">
             <tr>
-              <th className="p-4 text-left font-bold text-text">Reward</th>
+              <th className="p-4 text-left font-bold text-text max-w-xs">Reward</th>
               <th className="p-4 text-left font-bold text-text">Locker Code</th>
               <th className="p-4 text-left font-bold text-text hidden md:table-cell">Released</th>
               <th className="p-4 text-left font-bold text-text">Expires</th>
@@ -90,8 +90,8 @@ const CodeRow = ({
 
   return (
     <tr className={`border-b border-accent/10 ${isExpired ? 'opacity-50' : ''}`}>
-      <td className="p-4">
-        {activeFilter === 'All' && <p className="text-xs text-accent mt-1">{game}</p>}
+      <td className="p-4 max-w-xs">
+        <p className="text-xs text-accent mt-1">{game}</p>
         <p className="font-semibold text-text">{reward}</p>
       </td>
       <td className="p-4 font-mono text-primary">{code}</td>
@@ -99,7 +99,7 @@ const CodeRow = ({
         {new Date(releaseDate).toLocaleDateString()}
       </td>
       <td className={`p-4 font-semibold ${expirationTextColor}`}>
-        {isExpired ? 'Expired' : expirationDate.toLocaleString()}
+        {isExpired ? 'Expired' : expirationDate.toLocaleDateString()}
       </td>
     </tr>
   );

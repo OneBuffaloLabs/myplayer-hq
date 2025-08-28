@@ -1,14 +1,344 @@
 [
   {
-    "releaseDate": "2025-08-22",
-    "code": "THANK-YOU-2K25",
-    "reward": "End Game Pack",
-    "expiration": "2025-08-29T16:00:00Z"
+    "releaseDate": "2025-08-08",
+    "code": "2K25-MyTEAM-THANK-YOU",
+    "reward": "Goat Player",
+    "expiration": "2025-08-29"
   },
   {
-    "releaseDate": "2025-08-15",
-    "code": "FINAL-LEGACY-CODE",
-    "reward": "Dark Matter Player",
-    "expiration": "2025-08-22T23:59:59Z"
+    "releaseDate": "2025-08-01",
+    "code": "INVINCIBLE-CARD-IN-MYTEAM",
+    "reward": "Invincible Player Card",
+    "expiration": "2025-08-08"
+  },
+  {
+    "releaseDate": "2025-07-20",
+    "code": "2K26-SUMMER-LEAGUE-FINALS",
+    "reward": "100 Overall Pack",
+    "expiration": "2025-07-27"
+  },
+  {
+    "releaseDate": "2025-07-09",
+    "code": "2K26-COVER-ATHLETES-MYTEAM",
+    "reward": "100 Overall Shai Gilgeous-Alexander, Invincible Carmelo Anthony and Pink Diamond Angel Reese Coach Card",
+    "expiration": "2025-08-22"
+  },
+  {
+    "releaseDate": "2025-07-04",
+    "code": "MYTEAM-4TH-OF-JULY-FIREWORKS",
+    "reward": "Deluxe Fireworks Pack",
+    "expiration": "2025-07-11"
+  },
+  {
+    "releaseDate": "2025-06-29",
+    "code": "MT-REESE-OR-BRINK-CARD",
+    "reward": "WNBA Reese or Brink Coach Card",
+    "expiration": "2025-07-01"
+  },
+  {
+    "releaseDate": "2025-06-29",
+    "code": "MYTEAM-WILSON-OR-CLARK",
+    "reward": "WNBA Wilson or Clark Coach Card",
+    "expiration": "2025-07-01"
+  },
+  {
+    "releaseDate": "2025-06-20",
+    "code": "MT-NBA-DRAFT-FESTIVAL",
+    "reward": "Goat Event Card",
+    "expiration": "2025-06-27"
+  },
+  {
+    "releaseDate": "2025-06-14",
+    "code": "MYTEAM-LIBERTY-FEVER",
+    "reward": "Catlin Clark Coach Card",
+    "expiration": "2025-06-18"
+  },
+  {
+    "releaseDate": "2025-06-06",
+    "code": "FESTIVAL-OF-CHAMPIONS-GOAT",
+    "reward": "Goat Piece",
+    "expiration": "2025-06-20"
+  },
+  {
+    "releaseDate": "2025-06-05",
+    "code": "100-OVR-NBA-2K25-FINALS",
+    "reward": "100 Overall Player Pack",
+    "expiration": "2025-06-12"
+  },
+  {
+    "releaseDate": "2025-05-26",
+    "code": "100-OVERALL-PLAYER",
+    "reward": "100 Overall Player Pack",
+    "expiration": "2025-06-02"
+  },
+  {
+    "releaseDate": "2025-05-15",
+    "code": "S7-DIVINCENZO",
+    "reward": "Diamond Donte Divincenzo",
+    "expiration": "2025-06-27"
+  },
+  {
+    "releaseDate": "2025-05-10",
+    "code": "MYTEAM-OUT-OF-POSITION",
+    "reward": "Out of Position Deluxe Pack",
+    "expiration": "2025-05-11"
+  },
+  {
+    "releaseDate": "2025-05-02",
+    "code": "DIAMOND-PLUS-PACK",
+    "reward": "92+ OVR Premium Player Pack",
+    "expiration": "2025-05-14"
+  },
+  {
+    "releaseDate": "2025-05-02",
+    "code": "HALL-OF-FAME-BADGE",
+    "reward": "Hall of Fame Badge",
+    "expiration": "2025-05-14"
+  },
+  {
+    "releaseDate": "2025-05-02",
+    "code": "GLITCHED-GOLD-TY-LUE",
+    "reward": "Glitched Gold Ty-Lue",
+    "expiration": "2025-05-14"
+  },
+  {
+    "releaseDate": "2025-05-02",
+    "code": "GEMS-OF-THE-GAME",
+    "reward": "92+ OVR Gems of the Game 2 Pack",
+    "expiration": "2025-05-14"
+  },
+  {
+    "releaseDate": "2025-05-02",
+    "code": "ONE-GALAXY-OPAL-EVENT-CARD",
+    "reward": "Galaxy Opal Glitched Event Card",
+    "expiration": "2025-05-14"
+  },
+  {
+    "releaseDate": "2025-05-02",
+    "code": "DIAMOND-SHOE-CARD",
+    "reward": "Diamond Shoe Pack",
+    "expiration": "2025-05-14"
+  },
+  {
+    "releaseDate": "2025-05-02",
+    "code": "HIDDEN-GEMS-PLAYER",
+    "reward": "Hidden Gems 87+ Player Pack",
+    "expiration": "2025-05-14"
+  },
+  {
+    "releaseDate": "2025-05-02",
+    "code": "LEGEND-BADGE",
+    "reward": "Legend Badge Award Pack",
+    "expiration": "2025-05-14"
+  },
+  {
+    "releaseDate": "2025-04-25",
+    "code": "MYTEAM-PLAYOFFS",
+    "reward": "Pantheon Deluxe Pack",
+    "expiration": "2025-04-26"
+  },
+  {
+    "releaseDate": "2025-04-20",
+    "code": "HAPPY-EASTER-99-OVERALL",
+    "reward": "99 OVR Player Pack",
+    "expiration": "2025-04-29"
+  },
+  {
+    "releaseDate": "2025-03-17",
+    "code": "MYTEAM-APEX-PACK",
+    "reward": "Apex Deluxe Pack",
+    "expiration": "2025-03-18"
+  },
+  {
+    "releaseDate": "2025-02-28",
+    "code": "MYTEAM-DELUXE-2K25",
+    "reward": "Deluxe Pack",
+    "expiration": "2025-03-01"
+  },
+  {
+    "releaseDate": "2025-02-14",
+    "code": "ROOKIE-MVP-OPAL-ELTON-BRAND",
+    "reward": "Galaxy Opal Elton Brand and an All-Star Event Card",
+    "expiration": "2025-02-21"
+  },
+  {
+    "releaseDate": "2025-02-04",
+    "code": "BACK-IN-THE-BAY-2K",
+    "reward": "Pink Diamond Damian Lillard and a Pro Standard All-Star 25 Button-Up Shirt for MyCareer",
+    "expiration": "2025-03-20"
+  },
+  {
+    "releaseDate": "2025-01-31",
+    "code": "2K25-MYTEAM-LNY",
+    "reward": "Lunar New Year Pack",
+    "expiration": "2025-02-01"
+  },
+  {
+    "releaseDate": "2025-01-31",
+    "code": "MyTEAM-LUNAR-NEW-YEAR",
+    "reward": "Lunar New Year Event Card Award pack containing a guaranteed Lunar New Year Event Card that can be exchanged for MTP",
+    "expiration": "2025-02-07"
+  },
+  {
+    "releaseDate": "2025-01-20",
+    "code": "ALLSTAR-2K-THE-COURT",
+    "reward": "The Court Hat, T-Shirt and 5x Skill Boosts",
+    "expiration": "2025-03-15"
+  },
+  {
+    "releaseDate": "2025-01-20",
+    "code": "MYCAREER-MLK-DAY-2025",
+    "reward": "Double XP Token and MLK Day Medallion Necklace",
+    "expiration": "2025-01-22"
+  },
+  {
+    "releaseDate": "2025-01-20",
+    "code": "MLK-DAY-2K25-MYTEAM",
+    "reward": "Pink Diamond Reward Ball Drop",
+    "expiration": "2025-01-21"
+  },
+  {
+    "releaseDate": "2024-12-25",
+    "code": "12DAYS-HAPPY-HOLIDAYS",
+    "reward": "Pink Diamond player",
+    "expiration": "2025-01-01"
+  },
+  {
+    "releaseDate": "2024-12-23",
+    "code": "MT-HOF-BADGE-12DAYS",
+    "reward": "Hall of Fame Badge Option Pack",
+    "expiration": "2024-12-26"
+  },
+  {
+    "releaseDate": "2024-12-22",
+    "code": "12DAYS-MT-HIDDEN-GEMS",
+    "reward": "Hidden Gems Ruby Option Pack",
+    "expiration": "2024-12-25"
+  },
+  {
+    "releaseDate": "2024-12-21",
+    "code": "HOLIDAY-SCARF-12DAYS",
+    "reward": "Holiday Scarf for your MyPlayer",
+    "expiration": "2024-12-24"
+  },
+  {
+    "releaseDate": "2024-12-20",
+    "code": "12DAYS-WINTER-PEACOAT",
+    "reward": "Peacoat for your MyPlayer",
+    "expiration": "2024-12-23"
+  },
+  {
+    "releaseDate": "2024-12-19",
+    "code": "MYTEAM-12DAYS-DELUXE-PACK",
+    "reward": "Deluxe Pack",
+    "expiration": "2024-12-22"
+  },
+  {
+    "releaseDate": "2024-12-17",
+    "code": "HOLIDAY-SHIRT-TIME-12DAYS",
+    "reward": "Holiday Shirt for MyCareer",
+    "expiration": "2024-12-19"
+  },
+  {
+    "releaseDate": "2024-12-16",
+    "code": "12DAYS-OF-POLAR",
+    "reward": "Cardigan shirt for your MyPlayer",
+    "expiration": "2024-12-18"
+  },
+  {
+    "releaseDate": "2024-12-15",
+    "code": "2XP-MT-COINS-12DAYS",
+    "reward": "Two Double XP MyTeam Coins",
+    "expiration": "2024-12-17"
+  },
+  {
+    "releaseDate": "2024-12-14",
+    "code": "FIN4L-2K25-TNT6",
+    "reward": "Series 1 Amethyst Option Pack",
+    "expiration": "2024-12-15"
+  },
+  {
+    "releaseDate": "2024-12-14",
+    "code": "TNT-2K25-L1V3",
+    "reward": "Series 1 Amethyst Option Pack",
+    "expiration": "2024-12-15"
+  },
+  {
+    "releaseDate": "2024-12-14",
+    "code": "12DAYS-GOTG-OPTION-PACK",
+    "reward": "Gems of the Game Amethyst Option Pack",
+    "expiration": "2024-12-15"
+  },
+  {
+    "releaseDate": "2024-12-11",
+    "code": "2K25-TRUTV-PL4Y",
+    "reward": "Series 1 Amethyst Option Pack",
+    "expiration": "2024-12-13"
+  },
+  {
+    "releaseDate": "2024-12-11",
+    "code": "WATCH-NBA2K-TNT9",
+    "reward": "Series 1 Amethyst Option Pack",
+    "expiration": "2024-12-13"
+  },
+  {
+    "releaseDate": "2024-12-10",
+    "code": "NBA2K-TNT-MT25",
+    "reward": "Series 1 Amethyst Option Pack",
+    "expiration": "2024-12-12"
+  },
+  {
+    "releaseDate": "2024-12-10",
+    "code": "TNT-NBA2K-ALT2",
+    "reward": "Series 1 Amethyst Option Pack",
+    "expiration": "2024-12-12"
+  },
+  {
+    "releaseDate": "2024-11-28",
+    "code": "THANKSGIVING-PINK-DIAMOND",
+    "reward": "Pick one Pink Diamond player: Chauncey Billups, Chris Kaman, C.J. McCollum, Jamal Mashburn or Wally Szczerbiak",
+    "expiration": "2024-12-05"
+  },
+  {
+    "releaseDate": "2024-11-08",
+    "code": "2K25-MYTEAM-LUKA-BOOKER",
+    "reward": "Amethyst Luka Doncic or Amethyst Devin Booker",
+    "expiration": "2024-11-09"
+  },
+  {
+    "releaseDate": "2024-10-31",
+    "code": "MYTEAM-43LDG",
+    "reward": "Random Deluxe Pack",
+    "expiration": "2024-10-31"
+  },
+  {
+    "releaseDate": "2024-10-31",
+    "code": "MYTEAM-99VTC",
+    "reward": "Random Deluxe Pack",
+    "expiration": "2024-10-31"
+  },
+  {
+    "releaseDate": "2024-10-31",
+    "code": "MYTEAM-EMZ7F",
+    "reward": "Random Deluxe Pack",
+    "expiration": "2024-10-31"
+  },
+  {
+    "releaseDate": "2024-10-31",
+    "code": "MYTEAM-DVK27",
+    "reward": "Random Deluxe Pack",
+    "expiration": "2024-10-31"
+  },
+  {
+    "releaseDate": "2024-10-31",
+    "code": "MYTEAM-HAY6N",
+    "reward": "Deluxe Pack",
+    "expiration": "2024-10-31"
+  },
+  {
+    "releaseDate": "2024-10-31",
+    "code": "MYTEAM-4CNC2",
+    "reward": "Random Deluxe Pack",
+    "expiration": "2024-10-31"
   }
 ]
