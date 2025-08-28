@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faDiscord, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 // Data for links to keep the component clean
@@ -21,8 +21,8 @@ const legalLinks = [
 
 const socialLinks = [
   { href: 'https://twitter.com/onebuffalolabs', label: 'Twitter', icon: faTwitter },
-  { href: 'https://discord.gg/yourserver', label: 'Discord', icon: faDiscord },
-  { href: 'https://youtube.com/yourchannel', label: 'YouTube', icon: faYoutube },
+  //   { href: 'https://discord.gg/yourserver', label: 'Discord', icon: faDiscord },
+  //   { href: 'https://youtube.com/yourchannel', label: 'YouTube', icon: faYoutube },
 ];
 
 export const Footer = () => {
