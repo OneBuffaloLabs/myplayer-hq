@@ -1,7 +1,7 @@
 {
   "name": "MyPlayerHQ",
   "short_name": "MyPlayerHQ",
-  "description": "",
+  "description": "Your headquarters for the best NBA 2K builds, badge data, animation requirements, and more. Dominate the court with MyPlayerHQ.",
   "start_url": "/",
   "icons": [
     {
