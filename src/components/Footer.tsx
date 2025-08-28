@@ -1,5 +1,4 @@
-// src/components/Footer.tsx
-'use client'; // Required for using new Date() for dynamic year
+'use client';
 
 import Link from 'next/link';
 import Image from 'next/image';
