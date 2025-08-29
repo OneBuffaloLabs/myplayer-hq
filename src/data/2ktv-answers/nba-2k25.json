@@ -208,5 +208,228 @@
       { "question": "Question 4", "answer": "12" },
       { "question": "Question 5", "answer": "Any" }
     ]
+  },
+  {
+    "episode": 11,
+    "questions": [
+      { "question": "Question 1", "answer": "Any" },
+      { "question": "Question 2", "answer": "36" },
+      { "question": "Question 3", "answer": "Any" },
+      { "question": "Question 4", "answer": "2K Share" },
+      { "question": "Question 5", "answer": "MyGM" },
+      { "question": "Question 6", "answer": "1" },
+      { "question": "Question 7", "answer": "Any" },
+      { "question": "Question 8", "answer": "A-" },
+      { "question": "Question 9", "answer": "Winner Takes All" },
+      { "question": "Question 10", "answer": "The Steph Era" }
+    ]
+  },
+  {
+    "episode": 12,
+    "questions": [
+      { "question": "Question 1", "answer": "NBA 2K23" },
+      { "question": "Question 2", "answer": "4" },
+      { "question": "Question 3", "answer": "14" },
+      { "question": "Question 4", "answer": "Derrick Rose" },
+      { "question": "Question 5", "answer": "Perks" },
+      { "question": "Question 6", "answer": "Any" },
+      { "question": "Question 7", "answer": "Cavaliers" }
+    ]
+  },
+  {
+    "episode": 13,
+    "questions": [
+      { "question": "Question 1", "answer": "Any" },
+      { "question": "Question 2", "answer": "2021" },
+      { "question": "Question 3", "answer": "True" },
+      { "question": "Question 4", "answer": "4th" },
+      { "question": "Question 5", "answer": "Golf" },
+      { "question": "Question 6", "answer": "Benny The Bull" }
+    ]
+  },
+  {
+    "episode": 14,
+    "questions": [
+      { "question": "Question 1", "answer": "2K Beats" },
+      { "question": "Question 2", "answer": "Season" },
+      { "question": "Question 3", "answer": "Any" },
+      { "question": "Question 4", "answer": "Russell Westbrook" },
+      { "question": "Question 5", "answer": "Any" },
+      { "question": "Question 6", "answer": "All of Them!" }
+    ]
+  },
+  {
+    "episode": 15,
+    "questions": [
+      { "question": "Question 1", "answer": "Any" },
+      { "question": "Question 2", "answer": "Pro-Am" },
+      { "question": "Question 3", "answer": "Any" },
+      { "question": "Question 4", "answer": "15,000" },
+      { "question": "Question 5", "answer": "Jamal Murray" },
+      { "question": "Question 6", "answer": "Carmelo Anthony" },
+      { "question": "Question 7", "answer": "Alter Ego" },
+      { "question": "Question 8", "answer": "4" }
+    ]
+  },
+  {
+    "episode": 16,
+    "questions": [
+      { "question": "Question 1", "answer": "Bucks" },
+      { "question": "Question 2", "answer": "Bulls" },
+      { "question": "Question 3", "answer": "Derrick Rose" },
+      { "question": "Question 4", "answer": "Chris Paul" },
+      { "question": "Question 5", "answer": "A Mini Tournament" },
+      { "question": "Question 6", "answer": "2" },
+      { "question": "Question 7", "answer": "False" },
+      { "question": "Question 8", "answer": "Rudy Gobert" },
+      { "question": "Question 9", "answer": "Any" },
+      { "question": "Question 10", "answer": "Any" },
+      { "question": "Question 11", "answer": "Any" },
+      { "question": "Question 12", "answer": "Thunder" }
+    ]
+  },
+  {
+    "episode": 17,
+    "questions": [
+      { "question": "Question 1", "answer": "Elite" },
+      { "question": "Question 2", "answer": "10,000,000" },
+      { "question": "Question 3", "answer": "Any" },
+      { "question": "Question 4", "answer": "False" },
+      { "question": "Question 5", "answer": "5" },
+      { "question": "Question 6", "answer": "Left Bumper" },
+      { "question": "Question 7", "answer": "Right Bumper" },
+      { "question": "Question 8", "answer": "Squads" },
+      { "question": "Question 9", "answer": "Rebound" },
+      { "question": "Question 10", "answer": "January 10" }
+    ]
+  },
+  {
+    "episode": 18,
+    "questions": [
+      { "question": "Question 1", "answer": "True" },
+      { "question": "Question 2", "answer": "True" },
+      { "question": "Question 3", "answer": "True" },
+      { "question": "Question 4", "answer": "Shai Gilgeous-Alexander" },
+      { "question": "Question 5", "answer": "Go The Gorilla" },
+      { "question": "Question 6", "answer": "40" },
+      { "question": "Question 7", "answer": "Dwyane Wade" },
+      { "question": "Question 8", "answer": "Any" },
+      { "question": "Question 9", "answer": "Any" },
+      { "question": "Question 10", "answer": "Doug Christie" }
+    ]
+  },
+  {
+    "episode": 19,
+    "questions": [
+      { "question": "Question 1", "answer": "Trades" },
+      { "question": "Question 2", "answer": "Online" },
+      { "question": "Question 3", "answer": "Point Guard" },
+      { "question": "Question 4", "answer": "0-3" },
+      { "question": "Question 5", "answer": "40" },
+      { "question": "Question 6", "answer": "3" },
+      { "question": "Question 7", "answer": "Cavaliers" },
+      { "question": "Question 8", "answer": "Thunder" },
+      { "question": "Question 9", "answer": "D" },
+      { "question": "Question 10", "answer": "Elite" }
+    ]
+  },
+  {
+    "episode": 20,
+    "questions": [
+      { "question": "Question 1", "answer": "True" },
+      { "question": "Question 2", "answer": "Any" },
+      { "question": "Question 3", "answer": "Zion Williamson" },
+      { "question": "Question 4", "answer": "True" },
+      { "question": "Question 5", "answer": "2KTV Builds" },
+      { "question": "Question 6", "answer": "2" },
+      { "question": "Question 7", "answer": "Spurs & Pacers" },
+      { "question": "Question 8", "answer": "2020" },
+      { "question": "Question 9", "answer": "Any" },
+      { "question": "Question 10", "answer": "Banana Man" }
+    ]
+  },
+  {
+    "episode": 21,
+    "questions": [
+      { "question": "Question 1", "answer": "1985" },
+      { "question": "Question 2", "answer": "$5000" },
+      { "question": "Question 3", "answer": "3-Point Percentage" },
+      { "question": "Question 4", "answer": "Point Guard" },
+      { "question": "Question 5", "answer": "Third" },
+      { "question": "Question 6", "answer": "9" },
+      { "question": "Question 7", "answer": "Paris" },
+      { "question": "Question 8", "answer": "Cavaliers" },
+      { "question": "Question 9", "answer": "Any" },
+      { "question": "Question 10", "answer": "2" },
+      { "question": "Question 11", "answer": "Giannis" },
+      { "question": "Question 12", "answer": "21" },
+      { "question": "Question 13", "answer": "True" },
+      { "question": "Question 14", "answer": "54" },
+      { "question": "Question 15", "answer": "Players" },
+      { "question": "Question 16", "answer": "2" },
+      { "question": "Question 17", "answer": "True" },
+      { "question": "Question 18", "answer": "1988" },
+      { "question": "Question 19", "answer": "1997-98" },
+      { "question": "Question 20", "answer": "Any" },
+      { "question": "Question 21", "answer": "San Francisco" }
+    ]
+  },
+  {
+    "episode": 22,
+    "questions": [
+      { "question": "Question 1", "answer": "2000" },
+      { "question": "Question 2", "answer": "Any" },
+      { "question": "Question 3", "answer": "Center" },
+      { "question": "Question 4", "answer": "Animations" },
+      { "question": "Question 5", "answer": "Cavaliers" },
+      { "question": "Question 6", "answer": "LeBron James" },
+      { "question": "Question 7", "answer": "6" },
+      { "question": "Question 8", "answer": "Kareem Abdul-Jabbar" },
+      { "question": "Question 9", "answer": "LeBron James" },
+      { "question": "Question 10", "answer": "True" }
+    ]
+  },
+  {
+    "episode": 23,
+    "questions": [
+      { "question": "Question 1", "answer": "Victor Wembanyama" },
+      { "question": "Question 2", "answer": "Heat" },
+      { "question": "Question 3", "answer": "Any" },
+      { "question": "Question 4", "answer": "Triple Threat" },
+      { "question": "Question 5", "answer": "OGs" },
+      { "question": "Question 6", "answer": "Learn 2K" },
+      { "question": "Question 7", "answer": "1" },
+      { "question": "Question 8", "answer": "Dyson Daniels" },
+      { "question": "Question 9", "answer": "Any" },
+      { "question": "Question 10", "answer": "Tyler Herro" },
+      { "question": "Question 11", "answer": "Mac McClung" }
+    ]
+  },
+  {
+    "episode": 24,
+    "questions": [
+      { "question": "Question 1", "answer": "30" },
+      { "question": "Question 2", "answer": "Any" },
+      { "question": "Question 3", "answer": "Celtics" },
+      { "question": "Question 4", "answer": "Hakeem Olajuwon" },
+      { "question": "Question 5", "answer": "Titanium League" },
+      { "question": "Question 6", "answer": "Any" },
+      { "question": "Question 7", "answer": "False" }
+    ]
+  },
+  {
+    "episode": 25,
+    "questions": [
+      { "question": "Question 1", "answer": "Any" },
+      { "question": "Question 2", "answer": "LeBron James" },
+      { "question": "Question 3", "answer": "Balance" },
+      { "question": "Question 4", "answer": "Boxout Beast" },
+      { "question": "Question 5", "answer": "Nikola Jokic" },
+      { "question": "Question 6", "answer": "False" },
+      { "question": "Question 7", "answer": "The Kobe Era" },
+      { "question": "Question 8", "answer": "Rebounding Champion" },
+      { "question": "Question 9", "answer": "25.5" },
+      { "question": "Question 10", "answer": "2014" }
+    ]
   }
 ]
