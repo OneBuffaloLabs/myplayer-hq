@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
 import Image from 'next/image';
 import { generateMetadata } from '@/utils/metadata';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -86,7 +85,15 @@ export default function AboutPage() {
             MyPlayerHQ was born from a passion for NBA 2K and a desire to create the most accurate,
             reliable, and user-friendly resource for the community. We were tired of inaccurate data
             and cluttered websites, so we decided to build the solution ourselves. This is a passion
-            project from the team at One Buffalo Games.
+            project from the team at{' '}
+            <a
+              href="https://onebuffalogames.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline hover:text-accent">
+              One Buffalo Games
+            </a>
+            .
           </p>
         </section>
 
