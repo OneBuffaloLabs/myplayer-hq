@@ -27,7 +27,7 @@ const features: Feature[] = [
 ];
 
 const FeatureCard = ({ icon, title, description }: Feature) => (
-  <div className="bg-[#1F1F22] p-6 rounded-lg border border-accent/50">
+  <div className="bg-background-secondary  p-6 rounded-lg border border-accent/50">
     <FontAwesomeIcon icon={icon} size="3x" className="text-primary mb-4" />
     <h3 className="text-xl font-bold text-text mb-2">{title}</h3>
     <p className="text-text/80">{description}</p>

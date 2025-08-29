@@ -24,7 +24,7 @@ const AccordionItem = ({ title, children }: AccordionItemProps) => {
         />
       </button>
       {isOpen && (
-        <div className="p-4 bg-[#1F1F22]">
+        <div className="p-4 bg-background-secondary ">
           <div className="prose prose-invert max-w-none text-text/90">{children}</div>
         </div>
       )}

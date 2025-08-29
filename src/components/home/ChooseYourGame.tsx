@@ -59,7 +59,7 @@ const GameCard = ({ title, slug, status, logoUrl, subtitle }: Game) => {
 
 export const ChooseYourGame = () => {
   return (
-    <section className="bg-[#1F1F22] py-20">
+    <section className="bg-background-secondary  py-20">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-text mb-12">Choose Your Game</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
