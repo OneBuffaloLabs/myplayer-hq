@@ -2,58 +2,211 @@
   {
     "episode": 1,
     "questions": [
-      {
-        "question": "NBA 2K25 features our _ season?",
-        "answer": "11th"
-      },
+      { "question": "NBA 2K25 features our _ season?", "answer": "11th" },
       {
         "question": "What position will you choose for your first build?",
         "answer": "Any (2KTV Clothing Item)"
       },
-      {
-        "question": "Chris returns as the head of which Affiliation?",
-        "answer": "Elite"
-      },
+      { "question": "Chris returns as the head of which Affiliation?", "answer": "Elite" },
       {
         "question": "Which mode are you most excited to check out?",
         "answer": "MyCareer (100 VC)"
       },
-      {
-        "question": "Which WNBA player is a cover athlete for NBA 2K25?",
-        "answer": "A'Ja Wilson"
-      },
+      { "question": "Which WNBA player is a cover athlete for NBA 2K25?", "answer": "A'Ja Wilson" },
       {
         "question": "Which attribute category are you most excited for in MyCareer?",
         "answer": "Any (2KTV Clothing Item)"
       },
-      {
-        "question": "How many Streetball courts are in The City?",
-        "answer": "3"
-      },
-      {
-        "question": "What is your resolution for NBA 2K25?",
-        "answer": "Any"
-      },
-      {
-        "question": "There's a new game mode in NBA 2K25 MyTeam called?",
-        "answer": "Breakout"
-      },
-      {
-        "question": "Which MyTeam mode is not new in NBA 2K25?",
-        "answer": "Salary Cap"
-      },
-      {
-        "question": "In NBA 2K25, MyTeam and MyCareer have shared progression",
-        "answer": "True"
-      },
+      { "question": "How many Streetball courts are in The City?", "answer": "3" },
+      { "question": "What is your resolution for NBA 2K25?", "answer": "Any" },
+      { "question": "There's a new game mode in NBA 2K25 MyTeam called?", "answer": "Breakout" },
+      { "question": "Which MyTeam mode is not new in NBA 2K25?", "answer": "Salary Cap" },
+      { "question": "In NBA 2K25, MyTeam and MyCareer have shared progression", "answer": "True" },
       {
         "question": "Who is the cover athlete of the NBA 2K25 Hall of Fame Edition?",
         "answer": "Vince Carter"
       },
+      { "question": "On a scale of 1-10, how excited are you for NBA 2K25?", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 2,
+    "questions": [
       {
-        "question": "On a scale of 1-10, how excited are you for NBA 2K25?",
+        "question": "Which segment of the show are you most excited to watch this week?",
         "answer": "Any"
+      },
+      { "question": "What kind of games can you play at these Beach Courts?", "answer": "3v3" },
+      {
+        "question": "What year did Dr. James Naismith invent the game of basketball?",
+        "answer": "1891"
+      },
+      { "question": "The new Badge Tier in NBA 2K25 is", "answer": "Legendary" },
+      {
+        "question": "Performing a Go-To Shot requires holding __ on the right stick.",
+        "answer": "Up"
+      },
+      { "question": "What Block rating did you give your MyPlayer?", "answer": "Any" },
+      {
+        "question": "Performing a Floater or Runner requires holding __ on the right stick.",
+        "answer": "Down"
+      },
+      {
+        "question": "How many Streetball Bosses are waiting for you at each Streetball Court?",
+        "answer": "8 or 9"
+      },
+      { "question": "What year did Vince Carter win the NBA Slam Dunk Contest?", "answer": "2000" },
+      { "question": "Which MyTeam mode are you playing the most?", "answer": "Any" },
+      {
+        "question": "Which Celtics Evolution Card is the Level 10 MyTeam Reward in Season 1?",
+        "answer": "Jaylen Brown"
       }
+    ]
+  },
+  {
+    "episode": 3,
+    "questions": [
+      { "question": "Which segment of the show are you most excited to watch?", "answer": "Any" },
+      { "question": "Select your 2KTV top play of the week.", "answer": "Any" },
+      {
+        "question": "What is the name of the new, highly-competitive mode in The City?",
+        "answer": "Proving Grounds"
+      },
+      {
+        "question": "Including Legendary, how many Levels of Badges are in NBA 2K25?",
+        "answer": "5"
+      },
+      { "question": "How Many Levels of Takeover can you unlock in MyCareer?", "answer": "5" },
+      { "question": "The rotating Badge Perk for Season 11 is called __.", "answer": "Synergy" },
+      {
+        "question": "Which new Badge increases the ability to Block or Contest the rim?",
+        "answer": "Paint Patroller"
+      },
+      {
+        "question": "You can complete the Rebirth Quest when your Build reaches __ overall.",
+        "answer": "90"
+      },
+      {
+        "question": "__ increases Defense of Post Moves and chances of Post Steals.",
+        "answer": "Post Lockdown"
+      }
+    ]
+  },
+  {
+    "episode": 4,
+    "questions": [
+      { "question": "Question 1", "answer": "Any" },
+      { "question": "Question 2", "answer": "Rise" },
+      { "question": "Question 3", "answer": "True" },
+      { "question": "Question 4", "answer": "Rebound" },
+      { "question": "Question 5", "answer": "Deadeye" },
+      { "question": "Question 6", "answer": "99" },
+      { "question": "Question 7", "answer": "Mini Marksman" },
+      { "question": "Question 8", "answer": "Learn 2K" },
+      { "question": "Question 9", "answer": "False" },
+      { "question": "Question 10", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 5,
+    "questions": [
+      { "question": "What Year did Proving Grounds debut in NBA 2K?", "answer": "NBA 2K25" },
+      { "question": "Proving Grounds features 5 different game modes to play.", "answer": "False" },
+      { "question": "How often do you play games at Proving Grounds?", "answer": "Any" },
+      {
+        "question": "Clutch Time and Triple Threat can both be played in Breakout.",
+        "answer": "True"
+      },
+      {
+        "question": "You can choose which hand to try a layup with by using __.",
+        "answer": "Right Stick"
+      },
+      {
+        "question": "Which Badge increases your ability to finish Alley-Oops?",
+        "answer": "Aerial Wizard"
+      },
+      { "question": "Which play are you voting for?", "answer": "Any" },
+      { "question": "What was your favourite segment of the show this week?", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 6,
+    "questions": [
+      {
+        "question": "NBA 2K25 is the first NBA 2K to feature Press Conferences in The W.",
+        "answer": "True"
+      },
+      {
+        "question": "You can earn Goat Points in The W, and check your Career Progress in __.",
+        "answer": "Pursuit of Greatness"
+      },
+      { "question": "A'ja Wilson recently won her __ WNBA MVP Award.", "answer": "3rd" },
+      { "question": "How many Casual Courts are found in each Affiliation?", "answer": "One" },
+      {
+        "question": "Which Franchise will be making their WNBA Debut next season?",
+        "answer": "Valkyries"
+      },
+      { "question": "Which spin do you think should win?", "answer": "Any" },
+      { "question": "What was your favourite segment of the show this week?", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 7,
+    "questions": [
+      { "question": "Question 1", "answer": "Victor Wembanyama" },
+      { "question": "Question 2", "answer": "Tyrese Maxey" },
+      { "question": "Question 3", "answer": "Any" },
+      { "question": "Question 4", "answer": "Stephen Curry" },
+      { "question": "Question 5", "answer": "298" },
+      { "question": "Question 6", "answer": "Brad Stevens" },
+      { "question": "Question 7", "answer": "Nikola Jokic" },
+      { "question": "Question 8", "answer": "3" },
+      { "question": "Question 9", "answer": "Rudy Gobert" },
+      { "question": "Question 10", "answer": "4" },
+      { "question": "Question 11", "answer": "Thunder" },
+      { "question": "Question 12", "answer": "Mark Daigneault" },
+      { "question": "Question 13", "answer": "Any" },
+      { "question": "Question 14", "answer": "Mike Conley" },
+      { "question": "Question 15", "answer": "Naz Reid" },
+      { "question": "Question 16", "answer": "Any" },
+      { "question": "Question 17", "answer": "Halloween" }
+    ]
+  },
+  {
+    "episode": 8,
+    "questions": [
+      { "question": "Question 1", "answer": "3" },
+      { "question": "Question 2", "answer": "Magic" },
+      { "question": "Question 3", "answer": "554" },
+      { "question": "Question 4", "answer": "Magic" },
+      { "question": "Question 5", "answer": "The Long Night" },
+      { "question": "Question 6", "answer": "False" },
+      { "question": "Question 7", "answer": "Any" },
+      { "question": "Question 8", "answer": "Jonquel Jones" },
+      { "question": "Question 9", "answer": "True" },
+      { "question": "Question 10", "answer": "Any" },
+      { "question": "Question 11", "answer": "Mexico" }
+    ]
+  },
+  {
+    "episode": 9,
+    "questions": [
+      { "question": "Question 1", "answer": "2K Beats" },
+      { "question": "Question 2", "answer": "Any" },
+      { "question": "Question 3", "answer": "Any" },
+      { "question": "Question 4", "answer": "Any" },
+      { "question": "Question 5", "answer": "Rebound" },
+      { "question": "Question 6", "answer": "Home" }
+    ]
+  },
+  {
+    "episode": 10,
+    "questions": [
+      { "question": "Question 1", "answer": "Backstory" },
+      { "question": "Question 2", "answer": "Ex-Coach" },
+      { "question": "Question 3", "answer": "20" },
+      { "question": "Question 4", "answer": "12" },
+      { "question": "Question 5", "answer": "Any" }
     ]
   }
 ]
