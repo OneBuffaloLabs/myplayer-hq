@@ -431,5 +431,191 @@
       { "question": "Question 9", "answer": "25.5" },
       { "question": "Question 10", "answer": "2014" }
     ]
+  },
+  {
+    "episode": 26,
+    "questions": [
+      { "question": "Question 1", "answer": "Shifty Shooter" },
+      { "question": "Question 2", "answer": "3" },
+      { "question": "Question 3", "answer": "Hot" },
+      { "question": "Question 4", "answer": "Elite Courts" },
+      { "question": "Question 5", "answer": "Rockets" },
+      { "question": "Question 6", "answer": "True" },
+      { "question": "Question 7", "answer": "Any" },
+      { "question": "Question 8", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 27,
+    "questions": [
+      { "question": "Question 1", "answer": "Wednesday" },
+      { "question": "Question 2", "answer": "13" },
+      { "question": "Question 3", "answer": "Steph Curry" },
+      { "question": "Question 4", "answer": "True" },
+      { "question": "Question 5", "answer": "2023" },
+      { "question": "Question 6", "answer": "Any" },
+      { "question": "Question 7", "answer": "Training Hub" }
+    ]
+  },
+  {
+    "episode": 28,
+    "questions": [
+      { "question": "Question 1", "answer": "2017" },
+      { "question": "Question 2", "answer": "Exhibitions" },
+      { "question": "Question 3", "answer": "Attributes" },
+      { "question": "Question 4", "answer": "Rockets" },
+      { "question": "Question 5", "answer": "Rise Up" },
+      { "question": "Question 6", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 29,
+    "questions": [
+      { "question": "Question 1", "answer": "12th" },
+      { "question": "Question 2", "answer": "Jaylin Williams" },
+      { "question": "Question 3", "answer": "False" },
+      { "question": "Question 4", "answer": "Domination" },
+      { "question": "Question 5", "answer": "Any" },
+      { "question": "Question 6", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 30,
+    "questions": [
+      { "question": "Question 1", "answer": "Badge Progression" },
+      { "question": "Question 2", "answer": "Luka Doncic" },
+      { "question": "Question 3", "answer": "3" },
+      { "question": "Question 4", "answer": "Shai Gilgeous-Alexander" },
+      { "question": "Question 5", "answer": "8" },
+      { "question": "Question 6", "answer": "Anthony Edwards" },
+      { "question": "Question 7", "answer": "B" },
+      { "question": "Question 8", "answer": "Elite" }
+    ]
+  },
+  {
+    "episode": 31,
+    "questions": [
+      { "question": "Question 1", "answer": "Any" },
+      { "question": "Question 2", "answer": "Any" },
+      { "question": "Question 3", "answer": "Warriors" },
+      { "question": "Question 4", "answer": "Pacers" },
+      { "question": "Question 5", "answer": "Michael Jordan" }
+    ]
+  },
+  {
+    "episode": 32,
+    "questions": [
+      { "question": "Question 1", "answer": "Any" },
+      { "question": "Question 2", "answer": "All Three" }
+    ]
+  },
+  {
+    "episode": 33,
+    "questions": [
+      { "question": "Question 1", "answer": "85" },
+      { "question": "Question 2", "answer": "Redwood Trees" },
+      { "question": "Question 3", "answer": "3v3" },
+      { "question": "Question 4", "answer": "Down" },
+      { "question": "Question 5", "answer": "Any" },
+      { "question": "Question 6", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 34,
+    "questions": [
+      { "question": "Question 1", "answer": "Liberty" },
+      { "question": "Question 2", "answer": "29th" },
+      { "question": "Question 3", "answer": "Any" },
+      { "question": "Question 4", "answer": "40 Seconds" },
+      { "question": "Question 5", "answer": "Mavericks" },
+      { "question": "Question 6", "answer": "True" }
+    ]
+  },
+  {
+    "episode": 35,
+    "questions": [
+      { "question": "Question 1", "answer": "9" },
+      { "question": "Question 2", "answer": "Rockets" },
+      { "question": "Question 3", "answer": "Homecoming" },
+      { "question": "Question 4", "answer": "Jalen Brunson" },
+      { "question": "Question 5", "answer": "3" },
+      { "question": "Question 6", "answer": "Celtics" },
+      { "question": "Question 7", "answer": "33" },
+      { "question": "Question 8", "answer": "Warriors" },
+      { "question": "Question 9", "answer": "Steph Curry" },
+      { "question": "Question 10", "answer": "True" },
+      { "question": "Question 11", "answer": "Pacers" },
+      { "question": "Question 12", "answer": "Timberwolves" },
+      { "question": "Question 13", "answer": "Thunder" },
+      { "question": "Question 14", "answer": "Pacers vs. Knicks" },
+      { "question": "Question 15", "answer": "Any" },
+      { "question": "Question 16", "answer": "June 5th" },
+      { "question": "Question 17", "answer": "Shai" },
+      { "question": "Question 18", "answer": "Any" }
+    ]
+  },
+  {
+    "episode": 36,
+    "questions": [
+      { "question": "Question 1", "answer": "Any" },
+      { "question": "Question 2", "answer": "16" },
+      { "question": "Question 3", "answer": "Speed" },
+      { "question": "Question 4", "answer": "MVP" },
+      { "question": "Question 5", "answer": "13" },
+      { "question": "Question 6", "answer": "10" }
+    ]
+  },
+  {
+    "episode": 37,
+    "questions": [
+      { "question": "Question 1", "answer": "15" },
+      { "question": "Question 2", "answer": "2023" },
+      { "question": "Question 3", "answer": "2" },
+      { "question": "Question 4", "answer": "6" },
+      { "question": "Question 5", "answer": "Rise" },
+      { "question": "Question 6", "answer": "Elite" },
+      { "question": "Question 7", "answer": "5" }
+    ]
+  },
+  {
+    "episode": 38,
+    "questions": [
+      { "question": "Question 1", "answer": "Thunder" },
+      { "question": "Question 2", "answer": "Victor Wembanyama" },
+      { "question": "Question 3", "answer": "False" },
+      { "question": "Question 4", "answer": "2" },
+      { "question": "Question 5", "answer": "Liberty" },
+      { "question": "Question 6", "answer": "13" },
+      { "question": "Question 7", "answer": "Ivica Zubac" },
+      { "question": "Question 8", "answer": "Domantas Sabonis" },
+      { "question": "Question 9", "answer": "Don Nelson" },
+      { "question": "Question 10", "answer": "Celtics" },
+      { "question": "Question 11", "answer": "Nikola Jokic" },
+      { "question": "Question 12", "answer": "Cavaliers" },
+      { "question": "Question 13", "answer": "Lakers" },
+      { "question": "Question 14", "answer": "Magic" },
+      { "question": "Question 15", "answer": "Thunder" },
+      { "question": "Question 16", "answer": "Trae Young" },
+      { "question": "Question 17", "answer": "5 Minutes" },
+      { "question": "Question 18", "answer": "False" },
+      { "question": "Question 19", "answer": "Pacers" },
+      { "question": "Question 20", "answer": "11th" }
+    ]
+  },
+  {
+    "episode": 39,
+    "questions": [
+      { "question": "Question 1", "answer": "30 Min MyTEAM 2XP REP" },
+      { "question": "Question 2", "answer": "Sasha" },
+      { "question": "Question 3", "answer": "21" },
+      { "question": "Question 4", "answer": "Team Control" },
+      { "question": "Question 5", "answer": "4" },
+      { "question": "Question 6", "answer": "With 4 Quarters" },
+      { "question": "Question 7", "answer": "Tigers" },
+      { "question": "Question 8", "answer": "3v3" },
+      { "question": "Question 9", "answer": "Buzz" },
+      { "question": "Question 10", "answer": "85" },
+      { "question": "Question 11", "answer": "Any" }
+    ]
   }
 ]
