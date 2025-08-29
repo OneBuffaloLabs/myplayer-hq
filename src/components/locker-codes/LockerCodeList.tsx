@@ -1,4 +1,3 @@
-// src/components/locker-codes/LockerCodeList.tsx
 'use client';
 
 import { useState, useMemo } from 'react';
@@ -48,24 +47,33 @@ export const LockerCodeList = ({ codes }: LockerCodeListProps) => {
         ))}
       </div>
 
-      {/* Locker Code Table */}
-      <div className="overflow-x-auto">
-        <table className="min-w-full bg-[#1F1F22] border border-accent/20 rounded-lg">
-          <thead className="border-b border-accent/20">
-            <tr>
-              <th className="p-4 text-left font-bold text-text max-w-xs">Reward</th>
-              <th className="p-4 text-left font-bold text-text">Locker Code</th>
-              <th className="p-4 text-left font-bold text-text hidden md:table-cell">Released</th>
-              <th className="p-4 text-left font-bold text-text">Expires</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filteredCodes.map((code) => (
-              <CodeRow key={code.code} {...code} activeFilter={activeFilter} />
-            ))}
-          </tbody>
-        </table>
-      </div>
+      {/* Conditional Rendering: Show message or table */}
+      {filteredCodes.length === 0 ? (
+        <div className="text-center py-16 px-4 bg-[#1F1F22] rounded-lg border border-accent/20">
+          <p className="text-lg text-text/80">
+            There are currently no locker codes available for {activeFilter}.
+          </p>
+          <p className="text-text/60 mt-2">Please check back later!</p>
+        </div>
+      ) : (
+        <div className="overflow-x-auto">
+          <table className="min-w-full bg-[#1F1F22] border border-accent/20 rounded-lg">
+            <thead className="border-b border-accent/20">
+              <tr>
+                <th className="p-4 text-left font-bold text-text max-w-xs">Reward</th>
+                <th className="p-4 text-left font-bold text-text">Locker Code</th>
+                <th className="p-4 text-left font-bold text-text hidden md:table-cell">Released</th>
+                <th className="p-4 text-left font-bold text-text">Expires</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filteredCodes.map((code) => (
+                <CodeRow key={code.code} {...code} activeFilter={activeFilter} />
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
     </>
   );
 };
@@ -91,8 +99,8 @@ const CodeRow = ({
   return (
     <tr className={`border-b border-accent/10 ${isExpired ? 'opacity-50' : ''}`}>
       <td className="p-4 max-w-xs">
-        <p className="text-xs text-accent mt-1">{game}</p>
         <p className="font-semibold text-text">{reward}</p>
+        {activeFilter === 'All' && <p className="text-xs text-accent mt-1">{game}</p>}
       </td>
       <td className="p-4 font-mono text-primary">{code}</td>
       <td className="p-4 text-text/80 hidden md:table-cell">
