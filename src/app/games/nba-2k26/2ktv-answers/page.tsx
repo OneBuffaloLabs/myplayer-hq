@@ -5,7 +5,7 @@ import twoKTVData from '@/data/2ktv-answers/nba-2k26.json';
 
 export const metadata: Metadata = generateMetadata({
   title: 'NBA 2K26 2KTV Answers',
-  description: 'All NBA 2K26 2KTV answers will be available here as soon as the season starts.',
+  description: 'All NBA 2K26 2KTV answers will be available here as soon as the episodes drop.',
 });
 
 export default function NBA2k26_2KTVPage() {
