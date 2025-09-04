@@ -39,7 +39,13 @@ export const Footer = () => {
             <Link
               href="/"
               className="flex items-center justify-center md:justify-start space-x-2 mb-4">
-              <Image src="/assets/images/shield.png" alt="MyPlayerHQ Logo" width={40} height={40} />
+              <Image
+                src="/assets/images/shield.svg"
+                alt="MyPlayerHQ Logo"
+                width={48}
+                height={48}
+                priority
+              />
               <span className="text-xl font-bold text-text">MyPlayerHQ</span>
             </Link>
           </div>
