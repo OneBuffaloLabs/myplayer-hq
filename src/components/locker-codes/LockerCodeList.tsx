@@ -109,15 +109,28 @@ const CodeRow = ({
   game,
   activeFilter,
 }: LockerCode & { activeFilter: string }) => {
-  const expirationDate = new Date(expiration);
-  const now = new Date();
-  const oneDay = 24 * 60 * 60 * 1000;
-  const isExpired = expirationDate < now;
-  const isExpiringSoon = expirationDate.getTime() - now.getTime() < oneDay && !isExpired;
+  const isNeverExpires = expiration === 'Never Expires';
+  const isLimitedTime = expiration === 'Limited Time';
 
+  let expirationText = expiration;
   let expirationTextColor = 'text-text/80';
-  if (isExpiringSoon) expirationTextColor = 'text-yellow-500';
-  if (isExpired) expirationTextColor = 'text-red-500';
+  let isExpired = false;
+
+  if (!isNeverExpires && !isLimitedTime) {
+    const expirationDate = new Date(expiration);
+    const now = new Date();
+    const oneDay = 24 * 60 * 60 * 1000;
+    isExpired = expirationDate < now;
+    const isExpiringSoon = expirationDate.getTime() - now.getTime() < oneDay && !isExpired;
+
+    if (isExpiringSoon) expirationTextColor = 'text-yellow-500';
+    if (isExpired) expirationTextColor = 'text-red-500';
+    expirationText = isExpired ? 'Expired' : expirationDate.toLocaleDateString();
+  } else if (isNeverExpires) {
+    expirationTextColor = 'text-green-500';
+  } else if (isLimitedTime) {
+    expirationTextColor = 'text-yellow-500';
+  }
 
   return (
     <tr className={`border-b border-accent/10 ${isExpired ? 'opacity-50' : ''}`}>
@@ -129,9 +142,7 @@ const CodeRow = ({
       <td className="p-4 text-text/80 hidden md:table-cell">
         {new Date(releaseDate).toLocaleDateString()}
       </td>
-      <td className={`p-4 font-semibold ${expirationTextColor}`}>
-        {isExpired ? 'Expired' : expirationDate.toLocaleDateString()}
-      </td>
+      <td className={`p-4 font-semibold ${expirationTextColor}`}>{expirationText}</td>
     </tr>
   );
 };

@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { generateMetadata } from '@/utils/metadata';
-// import lockerCodes2k26 from '@/data/locker-codes/2k26.json';
+import lockerCodes2k26 from '@/data/locker-codes/2k26.json';
 import lockerCodes2k25 from '@/data/locker-codes/2k25.json';
 import { LockerCodeList } from '@/components/locker-codes/LockerCodeList';
 import { FaqAccordion } from '@/components/locker-codes/FaqAccordion';
@@ -15,7 +15,7 @@ type LockerCode = {
 
 // Combine and process codes on the server
 const allLockerCodes: LockerCode[] = [
-  // ...lockerCodes2k26.map((code) => ({ ...code, game: 'NBA 2K26' })),
+  ...lockerCodes2k26.map((code) => ({ ...code, game: 'NBA 2K26' })),
   ...lockerCodes2k25.map((code) => ({ ...code, game: 'NBA 2K25' })),
 ].sort((a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime());
 
