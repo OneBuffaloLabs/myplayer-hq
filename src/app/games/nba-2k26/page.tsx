@@ -42,7 +42,6 @@ const featureCards: {
     title: 'Attribute Descriptions',
     description: 'Understand what every in-game attribute does and how it impacts gameplay.',
     href: '/games/nba-2k26/attribute-descriptions',
-    isComingSoon: true,
   },
   {
     icon: faGem,

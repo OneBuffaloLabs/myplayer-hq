@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import attributeData from '@/data/games/nba-2k26/attributes.json';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 
 type Attribute = {
   name: string;
@@ -14,6 +15,12 @@ type AttributeCategory = {
   category: string;
   attributes: Attribute[];
 };
+
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: 'NBA 2K26', href: '/games/nba-2k26' },
+  { label: 'Attribute Descriptions', href: '/games/nba-2k26/attribute-descriptions' },
+];
 
 const AttributeAccordionItem = ({ category, attributes }: AttributeCategory) => {
   const [isOpen, setIsOpen] = useState(true); // Default to open for better initial visibility
@@ -57,6 +64,7 @@ export default function AttributeDescriptionsPage() {
   return (
     <main className="bg-background text-text">
       <div className="container mx-auto px-4 py-16">
+        <Breadcrumbs items={breadcrumbItems} />
         <header className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold text-primary">
             NBA 2K26 Attribute Descriptions
