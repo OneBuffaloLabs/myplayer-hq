@@ -9,11 +9,6 @@ type Badge = {
   description: string;
 };
 
-type BadgeCategory = {
-  category: string;
-  badges: Badge[];
-};
-
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
   { label: 'NBA 2K26', href: '/games/nba-2k26' },
