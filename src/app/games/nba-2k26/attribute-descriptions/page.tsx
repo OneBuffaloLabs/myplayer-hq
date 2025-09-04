@@ -70,7 +70,7 @@ export default function AttributeDescriptionsPage() {
             NBA 2K26 Attribute Descriptions
           </h1>
           <p className="text-lg md:text-xl mt-4 max-w-3xl mx-auto text-text/80">
-            Understand how each attribute in NBA 2K26 impacts your player's performance on the
+            Understand how each attribute in NBA 2K26 impacts your player&apos;s performance on the
             court. This guide breaks down every rating from Finishing to Defense.
           </p>
         </header>

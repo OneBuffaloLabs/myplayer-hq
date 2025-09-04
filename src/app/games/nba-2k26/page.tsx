@@ -48,7 +48,6 @@ const featureCards: {
     title: 'Badges Guide',
     description: 'A complete breakdown of badge tiers, requirements, and effects.',
     href: '/games/nba-2k26/badges',
-    isComingSoon: true,
   },
   {
     icon: faPersonRunning,
@@ -129,8 +128,8 @@ export default function NBA2k26HubPage() {
           </h1>
           <p className="text-lg md:text-xl mt-4 max-w-3xl mx-auto text-text/80">
             Welcome to the definitive resource for NBA 2K26. With the introduction of Crews, a new
-            two-tier badge system, and the "Out of Bounds" MyCAREER story, this year is bigger than
-            ever. Dive into our detailed guides to get the competitive edge.
+            two-tier badge system, and the &quot;Out of Bounds&quot; MyCAREER story, this year is
+            bigger than ever. Dive into our detailed guides to get the competitive edge.
           </p>
         </header>
 
