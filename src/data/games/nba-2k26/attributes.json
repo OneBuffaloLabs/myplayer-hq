@@ -1,0 +1,116 @@
+[
+  {
+    "category": "Finishing",
+    "attributes": [
+      {
+        "name": "Close Shot",
+        "description": "Boosts the ability to make shots (non-dunk/layup) within 10 feet of the basket, especially effective against defensive contests."
+      },
+      {
+        "name": "Driving Layup",
+        "description": "Increases the ability to finish layups effectively while driving to the basket, including navigating through traffic and absorbing contact."
+      },
+      {
+        "name": "Driving Dunk",
+        "description": "Determines a player's ability to perform dunks in traffic and on fast breaks. Higher ratings unlock more athletic and contact dunk animations."
+      },
+      {
+        "name": "Standing Dunk",
+        "description": "Improves a player's ability to perform dunks while standing under the basket, crucial for bigs on offensive rebounds and post moves."
+      },
+      {
+        "name": "Post Control",
+        "description": "Affects the success of post moves, spins, and drop-steps. A higher rating also helps protect the ball from being stolen in the post."
+      }
+    ]
+  },
+  {
+    "category": "Shooting",
+    "attributes": [
+      {
+        "name": "Mid-Range Shot",
+        "description": "Boosts the ability to make open and contested jump shots taken from inside the three-point line but outside of the close-shot range."
+      },
+      {
+        "name": "Three-Point Shot",
+        "description": "Increases a player's accuracy when shooting from beyond the three-point arc. Higher ratings reduce the impact of defensive contests."
+      },
+      {
+        "name": "Free Throw",
+        "description": "Determines a player's accuracy from the free-throw line. A crucial attribute for drawing fouls and capitalizing on free points."
+      }
+    ]
+  },
+  {
+    "category": "Playmaking",
+    "attributes": [
+      {
+        "name": "Pass Accuracy",
+        "description": "Increases the speed and accuracy of passes, reducing the chance of turnovers. Unlocks better passing animations like bullet passes and alley-oops."
+      },
+      {
+        "name": "Ball Handle",
+        "description": "Improves a player's ability to dribble effectively and perform advanced dribble moves, while also making it harder for defenders to steal the ball."
+      },
+      {
+        "name": "Speed with Ball",
+        "description": "Determines how fast a player can run while dribbling the ball. Essential for fast breaks and blowing by defenders."
+      }
+    ]
+  },
+  {
+    "category": "Defense",
+    "attributes": [
+      {
+        "name": "Interior Defense",
+        "description": "Boosts a player's ability to effectively contest shots, box out opponents, and stay in front of offensive players in the paint."
+      },
+      {
+        "name": "Perimeter Defense",
+        "description": "Improves a player's ability to stay in front of ball handlers on the perimeter, contest outside shots, and navigate through screens."
+      },
+      {
+        "name": "Steal",
+        "description": "Increases the chances of successfully stealing the ball from an opponent, both on-ball and by intercepting passes in the passing lanes."
+      },
+      {
+        "name": "Block",
+        "description": "Enhances a player's ability to block shots from opponents. A higher rating also improves the chances of successfully chasing down players on a fast break."
+      }
+    ]
+  },
+  {
+    "category": "Rebounding",
+    "attributes": [
+      {
+        "name": "Offensive Rebound",
+        "description": "Determines a player's effectiveness at getting rebounds on the offensive end of the court, creating second-chance opportunities."
+      },
+      {
+        "name": "Defensive Rebound",
+        "description": "Improves a player's ability to secure rebounds on the defensive end, which is key to preventing second-chance points and starting fast breaks."
+      }
+    ]
+  },
+  {
+    "category": "Physicals",
+    "attributes": [
+      {
+        "name": "Speed",
+        "description": "Affects how fast a player can run without the ball. Crucial for getting back on defense, cutting to the basket, and moving around screens."
+      },
+      {
+        "name": "Acceleration",
+        "description": "Determines how quickly a player can reach their top speed from a standstill or after changing directions."
+      },
+      {
+        "name": "Strength",
+        "description": "Impacts a player's ability to back down opponents in the post, absorb contact on drives, box out for rebounds, and set effective screens."
+      },
+      {
+        "name": "Vertical",
+        "description": "Affects a player's ability to jump high for rebounds, blocks, and dunks. It works in conjunction with other attributes to determine animation effectiveness."
+      }
+    ]
+  }
+]
