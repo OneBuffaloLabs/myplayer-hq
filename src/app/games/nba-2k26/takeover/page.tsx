@@ -68,33 +68,57 @@ export default function TakeoverPage() {
               Filter Takeovers
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <input
-                type="search"
-                placeholder="Search by name..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full bg-background border-2 border-accent/30 rounded-md p-2 focus:outline-none focus:border-primary"
-              />
-              <select
-                value={abilityFilter}
-                onChange={(e) => setAbilityFilter(e.target.value)}
-                className="w-full bg-background border-2 border-accent/30 rounded-md p-2 focus:outline-none focus:border-primary cursor-pointer">
-                {allAbilities.map((ability) => (
-                  <option key={ability} value={ability}>
-                    {ability}
-                  </option>
-                ))}
-              </select>
-              <select
-                value={attributeFilter}
-                onChange={(e) => setAttributeFilter(e.target.value)}
-                className="w-full bg-background border-2 border-accent/30 rounded-md p-2 focus:outline-none focus:border-primary cursor-pointer">
-                {allAttributes.map((attr) => (
-                  <option key={attr} value={attr}>
-                    {attr}
-                  </option>
-                ))}
-              </select>
+              <div>
+                <label
+                  htmlFor="search-takeover-name"
+                  className="block text-sm font-medium text-text/80 mb-1">
+                  Search by Name
+                </label>
+                <input
+                  id="search-takeover-name"
+                  type="search"
+                  placeholder="e.g., Finisher"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full bg-background border-2 border-accent/30 rounded-md p-2 focus:outline-none focus:border-primary"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="filter-ability"
+                  className="block text-sm font-medium text-text/80 mb-1">
+                  Filter by Ability
+                </label>
+                <select
+                  id="filter-ability"
+                  value={abilityFilter}
+                  onChange={(e) => setAbilityFilter(e.target.value)}
+                  className="w-full bg-background border-2 border-accent/30 rounded-md p-2 focus:outline-none focus:border-primary cursor-pointer">
+                  {allAbilities.map((ability) => (
+                    <option key={ability} value={ability}>
+                      {ability}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label
+                  htmlFor="filter-attribute"
+                  className="block text-sm font-medium text-text/80 mb-1">
+                  Filter by Attribute
+                </label>
+                <select
+                  id="filter-attribute"
+                  value={attributeFilter}
+                  onChange={(e) => setAttributeFilter(e.target.value)}
+                  className="w-full bg-background border-2 border-accent/30 rounded-md p-2 focus:outline-none focus:border-primary cursor-pointer">
+                  {allAttributes.map((attr) => (
+                    <option key={attr} value={attr}>
+                      {attr}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </div>
           </section>
 
