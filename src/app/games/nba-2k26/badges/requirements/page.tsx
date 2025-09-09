@@ -51,12 +51,21 @@ export default function BadgeRequirementsPage() {
 
     if (!activeCategoryData) return {};
 
-    const filteredRows =
-      activeFilter === 'All'
-        ? activeCategoryData.data
-        : activeCategoryData.data.filter((req) => req.attribute === activeFilter);
+    if (activeFilter === 'All') {
+      return groupRequirementsByBadge(activeCategoryData.data);
+    }
 
-    return groupRequirementsByBadge(filteredRows);
+    // Find all badge names that have at least one requirement matching the filter
+    const matchingBadgeNames = new Set(
+      activeCategoryData.data
+        .filter((req) => req.attribute === activeFilter)
+        .map((req) => req.badge)
+    );
+
+    // Get ALL requirements for those matched badges
+    const finalRows = activeCategoryData.data.filter((req) => matchingBadgeNames.has(req.badge));
+
+    return groupRequirementsByBadge(finalRows);
   }, [activeTab, activeFilter]);
 
   return (
