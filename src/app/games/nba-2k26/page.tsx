@@ -61,7 +61,6 @@ const featureCards: {
     title: 'Takeover Guide',
     description: 'Learn about all Takeover abilities, their boosts, and how to unlock them.',
     href: '/games/nba-2k26/takeover',
-    isComingSoon: true,
   },
   {
     icon: faTrophy,

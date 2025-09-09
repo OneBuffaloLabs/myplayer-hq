@@ -1,0 +1,659 @@
+[
+  {
+    "name": "3 & D",
+    "description": "Boosts shot-making from stand-still and off the dribble, as well as increased shot chance off anklebreakers. Also improves ability to get open off ball.",
+    "takeoverAbility": "Sharpshooter",
+    "attributes": [
+      {
+        "name": "Three-Point Shot",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Mid-Range Shot", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Perimeter Defense",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "3PT Architect",
+    "description": "Extends your shooting ability well beyond the 3-point line.",
+    "takeoverAbility": "Deep Bomber",
+    "attributes": [
+      {
+        "name": "Three-Point Shot",
+        "rating": 90,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Ball Handle", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Pass Accuracy", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "At The Rim",
+    "description": "Improves the ability to finish tough layups and floaters in traffic.",
+    "takeoverAbility": "Lethal Layup",
+    "attributes": [
+      { "name": "Driving Layup", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Driving Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Close Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Attacking",
+    "description": "Improves the ability to finish tough layups and floaters in traffic.",
+    "takeoverAbility": "Lethal Layup",
+    "attributes": [
+      { "name": "Driving Layup", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      {
+        "name": "Speed With Ball",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [2, 3, 4, 5, 7]
+      },
+      { "name": "Ball Handle", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] }
+    ]
+  },
+  {
+    "name": "BBQ Chicken",
+    "description": "Increased success rate for dunking and finishing under the basket. Easier to beat defenders with post backdowns, moves, fakes, and shots.",
+    "takeoverAbility": "Paint Surgeon",
+    "attributes": [
+      { "name": "Standing Dunk", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Close Shot", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Post Control", "rating": 75, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Board Boost",
+    "description": "Improves boxout success to secure more rebounds. Unleash effective and powerful screens that can catch unsuspecting defenders off guard.",
+    "takeoverAbility": "Crasher",
+    "attributes": [
+      {
+        "name": "Offensive Rebound",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      {
+        "name": "Defensive Rebound",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Standing Dunk", "rating": 85, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Break Ignitor",
+    "description": "Significantly boosts a teammate's shooting ability with pinpoint passes.",
+    "takeoverAbility": "Dishmaster",
+    "attributes": [
+      { "name": "Pass Accuracy", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Defensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      {
+        "name": "Offensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Bucket",
+    "description": "Enhances the ability to drive by defenders, making it easier to get to the rim.",
+    "takeoverAbility": "Blur",
+    "attributes": [
+      { "name": "Ball Handle", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Speed With Ball", "rating": 80, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Chef",
+    "description": "Extends your shooting ability well beyond the 3-point line.",
+    "takeoverAbility": "Deep Bomber",
+    "attributes": [
+      {
+        "name": "Three-Point Shot",
+        "rating": 90,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Ball Handle", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Clinic",
+    "description": "Boosts shot-making from stand-still and off the dribble, as well as increased shot chance off anklebreakers. Also improves ability to get open off ball.",
+    "takeoverAbility": "Sharpshooter",
+    "attributes": [
+      {
+        "name": "Three-Point Shot",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Mid-Range Shot", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Driving Layup", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "The Commander",
+    "description": "Boosts ability to defend around the basket and in the post. Shows you where missed shots will land ahead of time.",
+    "takeoverAbility": "Rim Guardian",
+    "attributes": [
+      {
+        "name": "Interior Defense",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [2, 3, 4, 5, 6]
+      },
+      { "name": "Block", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Defensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Defensive Presence",
+    "description": "Lock up ball handlers to force stops, pickups, and fumbles when bodying them up. Higher efficiency in getting on-ball and pass lane steals.",
+    "takeoverAbility": "Glue",
+    "attributes": [
+      { "name": "Steal", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Perimeter Defense",
+        "rating": 85,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Block", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Dribbler Wizard",
+    "description": "Enhances the ability to drive by defenders, making it easier to get to the rim.",
+    "takeoverAbility": "Blur",
+    "attributes": [
+      { "name": "Ball Handle", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Speed With Ball", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Pass Accuracy", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] }
+    ]
+  },
+  {
+    "name": "Driver",
+    "description": "Amplifies overall dunking ability, making Skill Dunks and Alley-Oops easier. Finishes strong with contact against defenders.",
+    "takeoverAbility": "Poster Machine",
+    "attributes": [
+      { "name": "Driving Dunk", "rating": 90, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Vertical", "rating": 75, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      { "name": "Ball Handle", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Speed With Ball", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Eraser",
+    "description": "Boosts ability to defend around the basket and in the post. Shows you where missed shots will land ahead of time.",
+    "takeoverAbility": "Rim Guardian",
+    "attributes": [
+      {
+        "name": "Interior Defense",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [0, 0, 0, 0, 0]
+      },
+      { "name": "Block", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Steal", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] },
+      {
+        "name": "Defensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Finesse",
+    "description": "Improves the ability to finish tough layups and floaters in traffic.",
+    "takeoverAbility": "Lethal Layup",
+    "attributes": [
+      { "name": "Driving Layup", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Ball Handle", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] }
+    ]
+  },
+  {
+    "name": "Finisher",
+    "description": "Amplifies overall dunking ability, making Skill Dunks and Alley-Oops easier. Finishes strong with contact against defenders.",
+    "takeoverAbility": "Poster Machine",
+    "attributes": [
+      { "name": "Driving Dunk", "rating": 90, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Vertical", "rating": 75, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      { "name": "Standing Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Close Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Fortress",
+    "description": "Lock up ball handlers to force stops, pickups, and fumbles when bodying them up. Higher efficiency in getting on-ball and pass lane steals.",
+    "takeoverAbility": "Glue",
+    "attributes": [
+      {
+        "name": "Perimeter Defense",
+        "rating": 85,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Steal", "rating": 85, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      {
+        "name": "Interior Defense",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [2, 3, 4, 5, 6]
+      },
+      {
+        "name": "Defensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Fundamentals",
+    "description": "Increased success rate for dunking and finishing under the basket. Easier to beat defenders with post backdowns, moves, fakes, and shots.",
+    "takeoverAbility": "Paint Surgeon",
+    "attributes": [
+      { "name": "Standing Dunk", "rating": 80, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      { "name": "Close Shot", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Post Control", "rating": 75, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] }
+    ]
+  },
+  {
+    "name": "The General",
+    "description": "Significantly boosts a teammate's shooting ability with pinpoint passes.",
+    "takeoverAbility": "Dishmaster",
+    "attributes": [
+      { "name": "Pass Accuracy", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Ball Handle", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Speed With Ball", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] }
+    ]
+  },
+  {
+    "name": "Gifted Hands",
+    "description": "Lock up ball handlers to force stops, pickups, and fumbles when bodying them up. Higher efficiency in getting on-ball and pass lane steals.",
+    "takeoverAbility": "Glue",
+    "attributes": [
+      {
+        "name": "Perimeter Defense",
+        "rating": 85,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Steal", "rating": 85, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Glass Gunner",
+    "description": "Boosts shot-making from stand-still and off the dribble, as well as increased shot chance off anklebreakers. Also improves ability to get open off ball.",
+    "takeoverAbility": "Sharpshooter",
+    "attributes": [
+      {
+        "name": "Three-Point Shot",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Mid-Range Shot", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Defensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Intimidator",
+    "description": "Boosts ability to defend around the basket and in the post. Shows you where missed shots will land ahead of time.",
+    "takeoverAbility": "Rim Guardian",
+    "attributes": [
+      {
+        "name": "Interior Defense",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [2, 3, 4, 5, 6]
+      },
+      { "name": "Block", "rating": 85, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      {
+        "name": "Defensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      {
+        "name": "Offensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Mixtape",
+    "description": "Enhances the ability to drive by defenders, making it easier to get to the rim.",
+    "takeoverAbility": "Blur",
+    "attributes": [
+      { "name": "Ball Handle", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Speed With Ball", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Nuisance",
+    "description": "Lock up ball handlers to force stops, pickups, and fumbles when bodying them up. Higher efficiency in getting on-ball and pass lane steals.",
+    "takeoverAbility": "Glue",
+    "attributes": [
+      {
+        "name": "Perimeter Defense",
+        "rating": 85,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Steal", "rating": 85, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Driving Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Offensive Artist",
+    "description": "Boosts shot-making from stand-still and off the dribble, as well as increased shot chance off anklebreakers. Also improves ability to get open off ball.",
+    "takeoverAbility": "Sharpshooter",
+    "attributes": [
+      { "name": "Mid-Range Shot", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Pass Accuracy", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Orchestrator",
+    "description": "Significantly boosts a teammate's shooting ability with pinpoint passes.",
+    "takeoverAbility": "Dishmaster",
+    "attributes": [
+      { "name": "Pass Accuracy", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [2, 3, 4, 5, 5]
+      },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Physicality",
+    "description": "Improves boxout success to secure more rebounds. Unleash effective and powerful screens that can catch unsuspecting defenders off guard.",
+    "takeoverAbility": "Crasher",
+    "attributes": [
+      {
+        "name": "Defensive Rebound",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      {
+        "name": "Offensive Rebound",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Strength", "rating": 85, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      {
+        "name": "Interior Defense",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [2, 3, 4, 5, 6]
+      }
+    ]
+  },
+  {
+    "name": "Point Forward",
+    "description": "Significantly boosts a teammate's shooting ability with pinpoint passes.",
+    "takeoverAbility": "Dishmaster",
+    "attributes": [
+      { "name": "Pass Accuracy", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Speed With Ball", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Ball Handle", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Post Conductor",
+    "description": "Significantly boosts a teammate's shooting ability with pinpoint passes.",
+    "takeoverAbility": "Dishmaster",
+    "attributes": [
+      { "name": "Pass Accuracy", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Close Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Post Control", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] }
+    ]
+  },
+  {
+    "name": "Rim Runner",
+    "description": "Enhances the ability to drive by defenders, making it easier to get to the rim.",
+    "takeoverAbility": "Blur",
+    "attributes": [
+      { "name": "Ball Handle", "rating": 85, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Speed With Ball", "rating": 80, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      { "name": "Driving Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Driving Layup", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Savant",
+    "description": "Extends your shooting ability well beyond the 3-point line.",
+    "takeoverAbility": "Deep Bomber",
+    "attributes": [
+      {
+        "name": "Three-Point Shot",
+        "rating": 90,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Steal", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Second Chance",
+    "description": "Improves boxout success to secure more rebounds. Unleash effective and powerful screens that can catch unsuspecting defenders off guard.",
+    "takeoverAbility": "Crasher",
+    "attributes": [
+      {
+        "name": "Offensive Rebound",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      {
+        "name": "Defensive Rebound",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [0, 0, 0, 0, 0]
+      },
+      { "name": "Strength", "rating": 85, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      { "name": "Standing Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Close Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Skilled Slasher",
+    "description": "Amplifies overall dunking ability, making Skill Dunks and Alley-Oops easier. Finishes strong with contact against defenders.",
+    "takeoverAbility": "Poster Machine",
+    "attributes": [
+      { "name": "Driving Dunk", "rating": 90, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Vertical", "rating": 75, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] }
+    ]
+  },
+  {
+    "name": "Sky Warden",
+    "description": "Amplifies overall dunking ability, making Skill Dunks and Alley-Oops easier. Finishes strong with contact against defenders.",
+    "takeoverAbility": "Poster Machine",
+    "attributes": [
+      { "name": "Driving Dunk", "rating": 90, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Vertical", "rating": 75, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      { "name": "Standing Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] },
+      {
+        "name": "Perimeter Defense",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Splash Tower",
+    "description": "Improves boxout success to secure more rebounds. Unleash effective and powerful screens that can catch unsuspecting defenders off guard.",
+    "takeoverAbility": "Crasher",
+    "attributes": [
+      {
+        "name": "Offensive Rebound",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      {
+        "name": "Defensive Rebound",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Strength", "rating": 85, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Trifecta",
+    "description": "Improves the ability to finish tough layups and floaters in traffic.",
+    "takeoverAbility": "Lethal Layup",
+    "attributes": [
+      { "name": "Driving Layup", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 7] },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 7] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 7]
+      }
+    ]
+  },
+  {
+    "name": "Triple Threat",
+    "description": "Extends your shooting ability well beyond the 3-point line.",
+    "takeoverAbility": "Deep Bomber",
+    "attributes": [
+      {
+        "name": "Three-Point Shot",
+        "rating": 90,
+        "isRequirement": true,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Mid-Range Shot", "rating": 25, "isRequirement": false, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Driving Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Two-Way Titan",
+    "description": "Boosts ability to defend around the basket and in the post. Shows you where missed shots will land ahead of time.",
+    "takeoverAbility": "Rim Guardian",
+    "attributes": [
+      {
+        "name": "Interior Defense",
+        "rating": 80,
+        "isRequirement": true,
+        "boosts": [2, 3, 4, 5, 6]
+      },
+      { "name": "Block", "rating": 85, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      {
+        "name": "Three-Point Shot",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      },
+      { "name": "Standing Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Unit",
+    "description": "Increased success rate for dunking and finishing under the basket. Easier to beat defenders with post backdowns, moves, fakes, and shots.",
+    "takeoverAbility": "Paint Surgeon",
+    "attributes": [
+      { "name": "Standing Dunk", "rating": 80, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Close Shot", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Post Control", "rating": 75, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      {
+        "name": "Offensive Rebound",
+        "rating": 25,
+        "isRequirement": false,
+        "boosts": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  {
+    "name": "Zanos",
+    "description": "Increased success rate for dunking and finishing under the basket. Easier to beat defenders with post backdowns, moves, fakes, and shots.",
+    "takeoverAbility": "Paint Surgeon",
+    "attributes": [
+      { "name": "Standing Dunk", "rating": 80, "isRequirement": true, "boosts": [1, 2, 3, 4, 5] },
+      { "name": "Close Shot", "rating": 80, "isRequirement": true, "boosts": [2, 3, 4, 5, 6] },
+      { "name": "Post Control", "rating": 75, "isRequirement": true, "boosts": [0, 0, 0, 0, 0] },
+      { "name": "Driving Dunk", "rating": 25, "isRequirement": false, "boosts": [1, 2, 3, 4, 5] }
+    ]
+  }
+]
