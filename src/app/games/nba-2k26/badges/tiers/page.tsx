@@ -58,8 +58,8 @@ export default function BadgeTiersPage() {
             Understanding the New Badge Tiers
           </h2>
           <p className="text-text/80">
-            In 2K26, badges are organized into two tiers, and your player's height determines which
-            tier each badge falls into. This is critical for build-making because the new{' '}
+            In 2K26, badges are organized into two tiers, and your player&apos;s height determines
+            which tier each badge falls into. This is critical for build-making because the new{' '}
             <strong className="text-primary">+1 and +2 Max Badge Level perks</strong> can only be
             applied to a limited number of badges in each tier.
           </p>
@@ -72,7 +72,7 @@ export default function BadgeTiersPage() {
             aria-labelledby="height-summary-tool"
             className="bg-background-secondary p-6 rounded-lg border border-accent/20">
             <h2 id="height-summary-tool" className="text-xl font-bold text-text mb-4">
-              "At a Glance" Height Summary
+              &quot;At a Glance&quot; Height Summary
             </h2>
             <p className="text-sm text-text/80 mb-4">
               Select a height to see the total number of badges available in each tier.
@@ -120,17 +120,17 @@ export default function BadgeTiersPage() {
               <button
                 onClick={() => setVisibleHeights(GUARD_HEIGHTS)}
                 className="px-3 py-1 text-xs font-semibold rounded-md bg-background hover:bg-accent/50 transition-colors cursor-pointer">
-                Guards (5'9"-6'4")
+                Guards (5&apos;9&quot;-6&apos;4&quot;)
               </button>
               <button
                 onClick={() => setVisibleHeights(WING_HEIGHTS)}
                 className="px-3 py-1 text-xs font-semibold rounded-md bg-background hover:bg-accent/50 transition-colors cursor-pointer">
-                Wings (6'5"-6'9")
+                Wings (6&apos;5&quot;-6&apos;9&quot;)
               </button>
               <button
                 onClick={() => setVisibleHeights(BIG_HEIGHTS)}
                 className="px-3 py-1 text-xs font-semibold rounded-md bg-background hover:bg-accent/50 transition-colors cursor-pointer">
-                Bigs (6'10"-7'4")
+                Bigs (6&apos;10&quot;-7&apos;4&quot;)
               </button>
             </div>
             <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-10 gap-x-4 gap-y-2">
@@ -171,7 +171,7 @@ export default function BadgeTiersPage() {
                 </tr>
               </thead>
               <tbody>
-                {tierData.badges.map((badge, index) => (
+                {tierData.badges.map((badge) => (
                   <tr
                     key={badge.name}
                     className="[&:nth-child(even)]:bg-background-secondary/40 hover:bg-primary/5">
