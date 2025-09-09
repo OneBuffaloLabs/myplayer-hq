@@ -4,16 +4,11 @@ import { useState, useMemo } from 'react';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import badgeData from '@/data/games/nba-2k26/badges/descriptions.json';
 
-type Badge = {
-  name: string;
-  description: string;
-};
-
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
-  { label: 'NBA 2K26', href: '/games/nba-2k26' },
-  { label: 'Badges Guide', href: '/games/nba-2k26/badges' },
-  { label: 'Badge Descriptions', href: '/games/nba-2k26/badges/descriptions' },
+  { label: 'NBA 2K26', href: '/games/nba-2k26/' },
+  { label: 'Badges Guide', href: '/games/nba-2k26/badges/' },
+  { label: 'Badge Descriptions', href: '/games/nba-2k26/badges/descriptions/' },
 ];
 
 const allCategories = ['All', ...badgeData.map((cat) => cat.category)];

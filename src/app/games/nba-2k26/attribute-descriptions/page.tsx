@@ -18,8 +18,8 @@ type AttributeCategory = {
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
-  { label: 'NBA 2K26', href: '/games/nba-2k26' },
-  { label: 'Attribute Descriptions', href: '/games/nba-2k26/attribute-descriptions' },
+  { label: 'NBA 2K26', href: '/games/nba-2k26/' },
+  { label: 'Attribute Descriptions', href: '/games/nba-2k26/attribute-descriptions/' },
 ];
 
 const AttributeAccordionItem = ({ category, attributes }: AttributeCategory) => {
