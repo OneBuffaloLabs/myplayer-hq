@@ -8,9 +8,9 @@ import { formatHeight } from '@/helpers/formatters';
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
-  { label: 'NBA 2K26', href: '/games/nba-2k26' },
-  { label: 'Badges Guide', href: '/games/nba-2k26/badges' },
-  { label: 'Badge Requirements', href: '/games/nba-2k26/badges/requirements' },
+  { label: 'NBA 2K26', href: '/games/nba-2k26/' },
+  { label: 'Badges Guide', href: '/games/nba-2k26/badges/' },
+  { label: 'Badge Requirements', href: '/games/nba-2k26/badges/requirements/' },
 ];
 
 // Helper to group requirements by badge name
