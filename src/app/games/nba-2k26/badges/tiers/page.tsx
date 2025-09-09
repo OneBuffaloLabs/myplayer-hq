@@ -11,6 +11,11 @@ const breadcrumbItems = [
   { label: 'Badge Tiers', href: '/games/nba-2k26/badges/tiers/' },
 ];
 
+// Define height ranges for archetypes
+const GUARD_HEIGHTS = ['5\'9"', '5\'10"', '5\'11"', '6\'0"', '6\'1"', '6\'2"', '6\'3"', '6\'4"'];
+const WING_HEIGHTS = ['6\'5"', '6\'6"', '6\'7"', '6\'8"', '6\'9"'];
+const BIG_HEIGHTS = ['6\'10"', '6\'11"', '7\'0"', '7\'1"', '7\'2"', '7\'3"', '7\'4"'];
+
 export default function BadgeTiersPage() {
   const [visibleHeights, setVisibleHeights] = useState<string[]>(tierData.heights);
   const [summaryHeight, setSummaryHeight] = useState<string>(tierData.heights[8]); // Default to 6'5"
@@ -101,6 +106,33 @@ export default function BadgeTiersPage() {
             <h2 id="height-filter" className="text-xl font-bold text-text mb-4">
               Show/Hide Heights in Table
             </h2>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <button
+                onClick={() => setVisibleHeights(tierData.heights)}
+                className="px-3 py-1 text-xs font-semibold rounded-md bg-background hover:bg-accent/50 transition-colors cursor-pointer">
+                All
+              </button>
+              <button
+                onClick={() => setVisibleHeights([])}
+                className="px-3 py-1 text-xs font-semibold rounded-md bg-background hover:bg-accent/50 transition-colors cursor-pointer">
+                None
+              </button>
+              <button
+                onClick={() => setVisibleHeights(GUARD_HEIGHTS)}
+                className="px-3 py-1 text-xs font-semibold rounded-md bg-background hover:bg-accent/50 transition-colors cursor-pointer">
+                Guards (5'9"-6'4")
+              </button>
+              <button
+                onClick={() => setVisibleHeights(WING_HEIGHTS)}
+                className="px-3 py-1 text-xs font-semibold rounded-md bg-background hover:bg-accent/50 transition-colors cursor-pointer">
+                Wings (6'5"-6'9")
+              </button>
+              <button
+                onClick={() => setVisibleHeights(BIG_HEIGHTS)}
+                className="px-3 py-1 text-xs font-semibold rounded-md bg-background hover:bg-accent/50 transition-colors cursor-pointer">
+                Bigs (6'10"-7'4")
+              </button>
+            </div>
             <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-10 gap-x-4 gap-y-2">
               {tierData.heights.map((h) => (
                 <label key={h} className="flex items-center space-x-2 text-sm cursor-pointer">
