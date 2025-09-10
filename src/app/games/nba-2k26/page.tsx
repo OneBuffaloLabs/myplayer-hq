@@ -67,7 +67,6 @@ const featureCards: {
     title: 'Seasons & Rewards',
     description: 'Track all seasonal rewards, including the Pro and Hall of Fame pass items.',
     href: '/games/nba-2k26/seasons',
-    isComingSoon: true,
   },
   {
     icon: faUsers,
