@@ -73,7 +73,6 @@ const featureCards: {
     title: 'Crew Information',
     description: 'Get the details on the new Crews feature and how to earn exclusive rewards.',
     href: '/games/nba-2k26/crews',
-    isComingSoon: true,
   },
 ];
 

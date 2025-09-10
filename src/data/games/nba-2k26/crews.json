@@ -1,0 +1,113 @@
+{
+  "explanation": {
+    "intro": "NBA 2K26 introduces Crew Rewards for the first time. These rewards incentivize players to join a crew and play with other players in their crew to receive additional boosts and bonuses.",
+    "details": "Some of these bonuses can be incredibly impactful such as additional cap breakers, infinite Gatorade and Skill boosts, Badge Max +1s and more. These rewards are going to take your build to another level.",
+    "rewards": "Play games to earn CXP for the Crew. Earn a bonus when your team is made up of Crew members. Complete Weekly Challenges for big CXP gains. Unlock rewards across 30 levels."
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "rewards": [
+        {
+          "level": 1,
+          "reward": "Play games to earn CXP for the Crew. Earn a bonus when your team is made up of Crew members. Complete Weekly Challenges for big CXP gains. Unlock rewards across 30 levels."
+        },
+        {
+          "level": 2,
+          "reward": "New Crew Intro Backgrounds diisplayed when playing together in games."
+        },
+        {
+          "level": 3,
+          "reward": "Crew Look Unlocked! Members can wear outfits that display your Crew colors and logo. Edit your look in the MyPLAYER Appearance menu."
+        },
+        { "level": 4, "reward": "The Curtain Teammote" },
+        {
+          "level": 5,
+          "reward": "New Crew Logo options customizable by the President and VPs."
+        },
+        {
+          "level": 6,
+          "reward": "Earn a 5% REP Bonus when your team is made up of your Crew members."
+        },
+        {
+          "level": 7,
+          "reward": "Earn a 5% VC Bonus when your team is made up of your Crew members."
+        },
+        { "level": 8, "reward": "Unlock a Cap Breaker to improve your MyPlayer." },
+        {
+          "level": 9,
+          "reward": "New Crew Intro Backgrounds displayed when playing together in games."
+        },
+        {
+          "level": 10,
+          "reward": "New outfits for your Crew Look that display your logo and colors."
+        },
+        { "level": 11, "reward": "KEEP WINNINGEST Teammote" },
+        {
+          "level": 12,
+          "reward": "Earn a 10% REP Bonus when your team is made up of your Crew members."
+        },
+        {
+          "level": 13,
+          "reward": "Earn a 10% VC Bonus when your team is made up of your Crew members."
+        },
+        {
+          "level": 14,
+          "reward": "Presidents and VPs can upload custom images for use as a Crew Logo."
+        },
+        { "level": 15, "reward": "Unlock a Cap Breaker to improve your MyPlayer." },
+        {
+          "level": 16,
+          "reward": "New Crew intro backgrounds displayed when playing together in games."
+        },
+        {
+          "level": 17,
+          "reward": "New outfits for your Crew that display your logos and colors."
+        },
+        { "level": 18, "reward": "WINNING Teammote" },
+        {
+          "level": 19,
+          "reward": "Earn a 25% REP Bonus when your team is made up of your Crew members."
+        },
+        {
+          "level": 20,
+          "reward": "Earn a 25% VC Bonus when your team is made up of your Crew members."
+        },
+        {
+          "level": 21,
+          "reward": "New outfits for your Crew Look that display your logo and colors."
+        },
+        { "level": 22, "reward": "Unlock a Cap Breaker to improve your MyPlayer" },
+        {
+          "level": 23,
+          "reward": "Unlock a Max +1 Tier 2 Slot to gain a competitive advantage"
+        },
+        {
+          "level": 24,
+          "reward": "Earn a 50% REP Bonus when your team is made up of your Crew members."
+        },
+        {
+          "level": 25,
+          "reward": "Earn a 50% VC Bonus when your team is made up of your Crew members."
+        },
+        {
+          "level": 26,
+          "reward": "Free Skill Boosts applied when your team is made up of your Crew members in The Park."
+        },
+        {
+          "level": 27,
+          "reward": "Free Gatorade applied when your team is made up of your Crew members in The Park."
+        },
+        {
+          "level": 28,
+          "reward": "Earn a 2XREP Bonus when your team is made up of your Crew members."
+        },
+        {
+          "level": 29,
+          "reward": "Unlock a Max +1 Tier 1 Slot to gain a competitive advantage."
+        },
+        { "level": 30, "reward": "Unlock a Cap Breaker to improve your MyPlayer" }
+      ]
+    }
+  ]
+}
