@@ -1,0 +1,267 @@
+[
+  {
+    "name": "Finishing",
+    "description": "Dominate near the rim with powerful finishes and dunks",
+    "requirements": [
+      "60 Driving Layup OR",
+      "60 Driving Dunk OR",
+      "60 Close Shot OR",
+      "60 Standing Dunk"
+    ],
+    "goals": [
+      {
+        "goal": "Goal 1: Victory Road",
+        "objective": "Win 20 Games",
+        "reward": "Layups/Dunks Skill Boosts (10 Games)"
+      },
+      {
+        "goal": "Goal 2: Rim Runners",
+        "objective": "Make 200 Close-Range Shots",
+        "reward": "Finishing Player Banner"
+      },
+      {
+        "goal": "Goal 3: Honor Roll",
+        "objective": "Win 50 Games with Teammate Grade A- or higher",
+        "reward": "Finishing - In-Game Emote \"Westbrookin' The Baby\""
+      },
+      {
+        "goal": "Goal 4: Control the Key",
+        "objective": "Make 400 Close-Range Shots",
+        "reward": "Finishing Medallion, Finishing Jersey"
+      },
+      {
+        "goal": "Goal 5: Chasing Greatness",
+        "objective": "Win 50 Games with 6 or more Shots Made in the Paint in each Win",
+        "reward": "Layups/Dunks Skill Boosts (25 games)"
+      },
+      {
+        "goal": "Goal 6: Points in the Paint",
+        "objective": "Make 600 Close-Range Shots",
+        "reward": "Finishing Cap Breaker"
+      },
+      {
+        "goal": "Goal 7: Legacy in the Making",
+        "objective": "Win 100 Games with 6 or more Shots Made in the Paint in each Win",
+        "reward": "Badge Park Max +1 Finishing, Unique Finishing Archetype Name"
+      },
+      {
+        "goal": "Goal 8: Inside Job",
+        "objective": "Make 1000 Close-Range Shots",
+        "reward": "Finishing Cap Breaker, Anthony Edwards Jersey"
+      },
+      {
+        "goal": "Goal 9: Paint Domination",
+        "objective": "Make 2000 Close-Range Shots",
+        "reward": "Badge Park Max +2 Finishing, Finishing Leg Sleeve"
+      }
+    ]
+  },
+  {
+    "name": "Shooting",
+    "description": "Become a lethal scorer from anywhere on the court",
+    "requirements": ["60 Mid-Range AND", "60 3PT Shot"],
+    "goals": [
+      {
+        "goal": "Goal 1: Stacking Dubs",
+        "objective": "Win 20 Games",
+        "reward": "Jump Shots Skill Boosts (10 games)"
+      },
+      {
+        "goal": "Goal 2: Sharpshooter's Path",
+        "objective": "Make 100 Mid-Range Shots OR Make 100 3PT Shots",
+        "reward": "Shooting Player Banner"
+      },
+      {
+        "goal": "Goal 3: Ace",
+        "objective": "Win 50 Games with Teammate Grade A- or higher",
+        "reward": "Shooting - In-Game Emote \"No Look\""
+      },
+      {
+        "goal": "Goal 4: Beyond the Arc",
+        "objective": "Make 250 Mid-Range Shots OR Make 250 3PT Shots",
+        "reward": "Shooting Medallion, Shooting Jersey"
+      },
+      {
+        "goal": "Goal 5: From Downtown",
+        "objective": "Win 50 Games with 5 or more Jumpshots Made in each win",
+        "reward": "Jump Shots Skill Boosts (25 games)"
+      },
+      {
+        "goal": "Goal 6: In the Zone",
+        "objective": "Make 500 Mid-Range Shots OR Make 500 3PT Shots",
+        "reward": "Shooting Cap Breaker"
+      },
+      {
+        "goal": "Goal 7: Proven Winner",
+        "objective": "Win 100 Games with 5 or more Jumpshots Made in each win",
+        "reward": "Badge Park Max +1 Shooting, Unique Shooting Archetype Name"
+      },
+      {
+        "goal": "Goal 8: Shooters Shoot",
+        "objective": "Make 1000 Mid-Range Shots OR Make 1000 3PT Shots",
+        "reward": "Shooting Cap Breaker, Larry Bird Jersey"
+      },
+      {
+        "goal": "Goal 9: The Net Whisperer",
+        "objective": "Make 2000 Mid-Range Shots OR Make 2000 3PT Shots",
+        "reward": "Badge Park Max +2 Shooting, Shooting Arm Sleeve"
+      }
+    ]
+  },
+  {
+    "name": "Playmaking",
+    "description": "Control the pace and create opportunities for your team",
+    "requirements": ["60 Pass Accuracy OR", "60 Ball Handle"],
+    "goals": [
+      {
+        "goal": "Goal 1: Earning Your Stripes",
+        "objective": "Win 20 Games",
+        "reward": "Ball Handling/Passing Skill Boosts (10 games)"
+      },
+      {
+        "goal": "Goal 2: Art of the Assist",
+        "objective": "Get 200 Assists OR Get 200 Relay Assists",
+        "reward": "Playmaking Player Banner"
+      },
+      {
+        "goal": "Goal 3: Professor",
+        "objective": "Win 50 Games with Teammate Grade A- or higher",
+        "reward": "Pass Style - \"Draymond Green\""
+      },
+      {
+        "goal": "Goal 4: Ball Movement Mastery",
+        "objective": "Get 500 Assists OR Get 500 Relay Assists",
+        "reward": "Playmaking Medallion, Playmaking Jersey"
+      },
+      {
+        "goal": "Goal 5: Playmakers Path",
+        "objective": "Win 50 Games with 5 or more Assists in each win",
+        "reward": "Ball Handling/Passing Skill Boosts (25 games)"
+      },
+      {
+        "goal": "Goal 6: Passing Prodigy",
+        "objective": "Get 1000 Assists OR Get 1000 Relay Assists",
+        "reward": "Playmaking Cap Breaker"
+      },
+      {
+        "goal": "Goal 7: Unselfish Greatness",
+        "objective": "Win 100 Games with 5 or more Assists in each win",
+        "reward": "Badge Park Max +1 Playmaking, Unique Playmaking Archetype Name"
+      },
+      {
+        "goal": "Goal 8: Magic Touch",
+        "objective": "Get 1500 Assists OR Get 1500 Relay Assists",
+        "reward": "Playmaking Cap Breaker, Tyrese Haliburton Jersey"
+      },
+      {
+        "goal": "Goal 9: The Floor General",
+        "objective": "Get 2000 Assists OR Get 2000 Relay Assists",
+        "reward": "Badge Park Max +2 Playmaking, Playmaking Headband"
+      }
+    ]
+  },
+  {
+    "name": "Defense",
+    "description": "Lock down opponents and protect your team's basket",
+    "requirements": ["(60 Perimeter Def AND 60 Steal) OR", "(60 Interior Def AND 60 Block)"],
+    "goals": [
+      {
+        "goal": "Goal 1: Winning Formula",
+        "objective": "Win 20 Games",
+        "reward": "Steals Skill Boosts (10 games), Blocks Skill Boosts (10 games)"
+      },
+      {
+        "goal": "Goal 2: Fundamental Defense",
+        "objective": "Defend 100 Shots Well",
+        "reward": "Defense Player Banner"
+      },
+      {
+        "goal": "Goal 3: Top of the Class",
+        "objective": "Win 50 Games with Teammate Grade A- or higher",
+        "reward": "Defense - In-Game Emote \"Lockdown\""
+      },
+      {
+        "goal": "Goal 4: Swipe and Deny",
+        "objective": "Get 250 Steals OR Get 250 Blocks",
+        "reward": "Defense Medallion, Defense Jersey"
+      },
+      {
+        "goal": "Goal 5: The Art of Disruption",
+        "objective": "Win 50 Games with at least 3 Blocks and Steals Combined in each win",
+        "reward": "Steals Skill Boosts (25 games), Blocks Skill Boosts (25 games)"
+      },
+      {
+        "goal": "Goal 6: No Easy Buckets",
+        "objective": "Defend 250 Shots Well",
+        "reward": "Defense Cap Breaker"
+      },
+      {
+        "goal": "Goal 7: Defense Wins Championships",
+        "objective": "Win 100 Games with at least 3 Blocks and Steals Combined in each win",
+        "reward": "Badge Park Max +1 Defense, Unique Defense Archetype Name"
+      },
+      {
+        "goal": "Goal 8: Defensive Playmaker",
+        "objective": "Get 400 Steals OR Get 400 Blocks",
+        "reward": "Defense Cap Breaker, Ben Wallace Jersey"
+      },
+      {
+        "goal": "Goal 9: Lockdown Legend",
+        "objective": "Defend 1500 Shots Well",
+        "reward": "Badge Park Max +2 Defense, Defense Hand Tape"
+      }
+    ]
+  },
+  {
+    "name": "Rebounding",
+    "description": "Control the boards and give your team extra possessions",
+    "requirements": ["60 Off Rebound OR", "60 Def Rebound"],
+    "goals": [
+      {
+        "goal": "Goal 1: Unstoppable Momentum",
+        "objective": "Win 20 Games",
+        "reward": "Rebounding Skill Boosts (10 games)"
+      },
+      {
+        "goal": "Goal 2: Relentless Rebounder",
+        "objective": "Get 200 Rebounds",
+        "reward": "Rebounding Player Banner"
+      },
+      {
+        "goal": "Goal 3: Book Worm",
+        "objective": "Win 50 Games with Teammate Grade A- or higher",
+        "reward": "Rebounding - In-Game Emote \"Double Flex\""
+      },
+      {
+        "goal": "Goal 4: Paint Beast Awakens",
+        "objective": "Get 350 Rebounds",
+        "reward": "Rebounding Medallion, Rebounding Jersey"
+      },
+      {
+        "goal": "Goal 5: Crash Conqueror",
+        "objective": "Win 50 Games with 5 or more Rebounds in each win",
+        "reward": "Rebounding Skill Boosts (25 games)"
+      },
+      {
+        "goal": "Goal 6: Sky Snatcher",
+        "objective": "Get 600 Rebounds",
+        "reward": "Rebounding Cap Breaker"
+      },
+      {
+        "goal": "Goal 7: Grit to Glory",
+        "objective": "Win 100 Games with 5 or more Rebounds in each win",
+        "reward": "Badge Park Max +1 Rebounding, Unique Rebounding Archetype Name"
+      },
+      {
+        "goal": "Goal 8: Rebound Relic",
+        "objective": "Get 1250 Rebounds",
+        "reward": "Rebounding Cap Breaker, Wilt Chamberlain Jersey"
+      },
+      {
+        "goal": "Goal 9: Board Boss",
+        "objective": "Get 2000 Rebounds",
+        "reward": "Badge Park Max +2 Rebounding, Rebounding Elbow Sleeve"
+      }
+    ]
+  }
+]

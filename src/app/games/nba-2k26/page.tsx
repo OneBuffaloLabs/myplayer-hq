@@ -11,6 +11,7 @@ import {
   faTrophy,
   faUsers,
   faArrowRight,
+  faStar,
 } from '@fortawesome/free-solid-svg-icons';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 
@@ -73,6 +74,12 @@ const featureCards: {
     title: 'Crew Information',
     description: 'Get the details on the new Crews feature and how to earn exclusive rewards.',
     href: '/games/nba-2k26/crews',
+  },
+  {
+    icon: faStar,
+    title: 'Build Specializations',
+    description: 'Discover the new Build Specializations and their unique rewards.',
+    href: '/games/nba-2k26/build-specializations',
   },
 ];
 
