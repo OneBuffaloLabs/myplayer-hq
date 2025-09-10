@@ -1,5 +1,13 @@
+// src/components/home/FeaturesOverview.tsx
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartSimple, faGem, faBolt } from '@fortawesome/free-solid-svg-icons';
+import {
+  faChartSimple,
+  faGem,
+  faBolt,
+  faUsers,
+  faTrophy,
+  faStar,
+} from '@fortawesome/free-solid-svg-icons';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 
 type Feature = {
@@ -23,6 +31,21 @@ const features: Feature[] = [
     icon: faBolt,
     title: 'Animation Unlocks',
     description: 'Know the exact requirements for every dunk and dribble move.',
+  },
+  {
+    icon: faStar,
+    title: 'Build Specializations',
+    description: 'Discover unique rewards by specializing your build.',
+  },
+  {
+    icon: faUsers,
+    title: 'Crew Information',
+    description: 'Learn how to earn exclusive rewards with your crew.',
+  },
+  {
+    icon: faTrophy,
+    title: 'Seasons & Rewards',
+    description: 'Track all seasonal rewards to maximize your grind.',
   },
 ];
 
