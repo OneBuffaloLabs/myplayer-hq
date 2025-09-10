@@ -32,16 +32,16 @@ const teamMembers: TeamMember[] = [
     imageUrl: '/assets/images/shield.png', // Placeholder image
     links: [{ href: 'https://github.com/Bana0615', icon: faGithub, label: 'GitHub' }],
   },
-  {
-    role: 'The Playmaker',
-    name: 'Your Name Here',
-    bio: "The voice of the community and content creator for MyPlayerHQ. He translates the data into engaging content and ensures the community's feedback shapes the future of the site.",
-    imageUrl: '/assets/images/shield.png', // Placeholder image
-    links: [
-      { href: '#Youtube', icon: faYoutube, label: 'YouTube' },
-      { href: '#Twitch', icon: faTwitch, label: 'Twitch' },
-    ],
-  },
+  // {
+  //   role: 'The Playmaker',
+  //   name: 'Your Name Here',
+  //   bio: "The voice of the community and content creator for MyPlayerHQ. He translates the data into engaging content and ensures the community's feedback shapes the future of the site.",
+  //   imageUrl: '/assets/images/shield.png', // Placeholder image
+  //   links: [
+  //     { href: '#Youtube', icon: faYoutube, label: 'YouTube' },
+  //     { href: '#Twitch', icon: faTwitch, label: 'Twitch' },
+  //   ],
+  // },
 ];
 
 type Philosophy = {

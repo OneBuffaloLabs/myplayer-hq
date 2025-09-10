@@ -1,16 +1,3 @@
-### Follow the directions when creating new site
-
-- Generate Favicons and place them in the proper locations
-- Update not-found page
-- Update layout.tsx
-  - Update Header & Footer Components
-- update manifest.json
-  - Add description
-- **Optional:**
-  - If using analytics (GA), update `GA_MEASUREMENT_ID` in `src\lib\analytics.ts`
-
----
-
 ## MyPlayerHQ
 
 ## 1. Install dependencies
