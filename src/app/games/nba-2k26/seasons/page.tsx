@@ -47,15 +47,29 @@ export default function SeasonsPage() {
           </p>
         </header>
 
-        <div className="max-w-4xl mx-auto bg-background-secondary p-6 rounded-lg border border-accent/20 mb-12">
-          <h2 className="text-2xl font-bold text-text mb-4">Pro Pass vs. Hall of Fame Pass</h2>
-          <p className="text-text/80 mb-4">
-            The Hall of Fame (HOF) Pass includes all the rewards from the Pro Pass, plus 10
-            immediate Level Skips to advance on the Season reward track, and a 15% XP Booster for
-            the entire season to help you earn rewards faster. You also receive 15,000 Virtual
-            Currency (VC) and 4 additional Season Pass rewards with the HOF Pass.
-          </p>
-        </div>
+        <section
+          aria-labelledby="season-rewards-explanation"
+          className="max-w-4xl mx-auto bg-background-secondary p-6 rounded-lg border border-accent/20 mb-12">
+          <h2 id="season-rewards-explanation" className="text-2xl font-bold text-text mb-4">
+            The Grind is Back: How Season Rewards Work
+          </h2>
+          <div className="prose prose-invert max-w-none text-text/90">
+            <p className="mb-4">
+              NBA 2K26 is doubling down on the grind, bringing back a huge collection of season
+              rewards that run parallel to your rep grind. This season, you&apos;re on two free
+              reward tracks simultaneously, leveling up your MyCAREER and MyTEAM just by playing the
+              game.
+            </p>
+            <p>
+              Want to unlock even more gear and boosts? A third premium track is available if you
+              grab the <strong className="text-primary">Pro Pass</strong>. For the ultimate
+              grinders, the <strong className="text-primary">Hall of Fame Pass</strong> gives you
+              everything in the Pro Pass, plus an instant 10-level skip and a 15% season-long XP
+              boost to leave the competition in the dust. You can also skip individual levels for
+              $1.99 USD anytime.
+            </p>
+          </div>
+        </section>
 
         <div className="flex justify-center mb-8">
           <select
