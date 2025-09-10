@@ -1,4 +1,3 @@
-// onebuffalolabs/myplayer-hq/myplayer-hq-fca6efcca10df1b2c79385ad5bcd394b7d045bd4/src/app/games/nba-2k26/build-specializations/page.tsx
 'use client';
 
 import { useState } from 'react';
@@ -6,6 +5,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import specializationsData from '@/data/games/nba-2k26/build-specializations.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import type { Specialization, Goal } from '@/types/specializations';
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -13,7 +13,7 @@ const breadcrumbItems = [
   { label: 'Build Specializations', href: '/games/nba-2k26/build-specializations' },
 ];
 
-const SpecializationCard = ({ specialization }: { specialization: any }) => {
+const SpecializationCard = ({ specialization }: { specialization: Specialization }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -38,7 +38,7 @@ const SpecializationCard = ({ specialization }: { specialization: any }) => {
                 <li key={index}>{req}</li>
               ))}
             </ul>
-            <h3 className="text-xl font-bold text-text my-4">Goals & Rewards:</h3>
+            <h3 className="text-xl font-bold text-text mt-4">Goals & Rewards:</h3>
             <div className="overflow-x-auto rounded-lg border border-accent/20">
               <table className="min-w-full text-left">
                 <thead className="bg-background">
@@ -49,7 +49,7 @@ const SpecializationCard = ({ specialization }: { specialization: any }) => {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-accent/10">
-                  {specialization.goals.map((goal: any, index: number) => (
+                  {specialization.goals.map((goal: Goal, index: number) => (
                     <tr key={index}>
                       <td className="p-2 font-semibold">{goal.goal}</td>
                       <td className="p-2">{goal.objective}</td>
@@ -99,13 +99,13 @@ export default function BuildSpecializationsPage() {
             <h3 className="text-xl font-bold text-text mt-4">Benefits</h3>
             <p>
               Each specialization provides unique challenges, rewards, and gameplay bonuses that
-              enhance your player's abilities in that specific area of the game.
+              enhance your player&apos;s abilities in that specific area of the game.
             </p>
           </div>
         </section>
 
         <section className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:items-start">
-          {specializationsData.map((specialization) => (
+          {(specializationsData as Specialization[]).map((specialization) => (
             <SpecializationCard key={specialization.name} specialization={specialization} />
           ))}
         </section>
