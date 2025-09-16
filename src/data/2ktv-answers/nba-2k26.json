@@ -71,5 +71,54 @@
         "answer": "Charlotte Hornets"
       }
     ]
+  },
+  {
+    "episode": 2,
+    "questions": [
+      {
+        "question": "The Theater hosts _ weekly game modes that change every Friday.",
+        "answer": "5"
+      },
+      {
+        "question": "In the 2K26 MyCareer story, you can play for teams in Spain or _.",
+        "answer": "France"
+      },
+      {
+        "question": "In MyCareer, you can earn badges in _ tiers.",
+        "answer": "2"
+      },
+      {
+        "question": "It is possible to use a Cap Breaker for more than a +1 attribute boost.",
+        "answer": "True"
+      },
+      {
+        "question": "The earliest you can earn Rebirths is when you reach this Overall Rating.",
+        "answer": "90"
+      },
+      {
+        "question": "Holding _ before receiving a pass speeds up your shot release.",
+        "answer": "Left Trigger"
+      },
+      {
+        "question": "Applying _ raises a badge by 1 level in clutch moments.",
+        "answer": "Clutch Gene"
+      },
+      {
+        "question": "You can exchange Hidden Gems cards for a new series called _.",
+        "answer": "Wild Gems"
+      },
+      {
+        "question": "September _ marks the return of the King of the Court in MyTEAM.",
+        "answer": "12"
+      },
+      {
+        "question": "In NBA 2K26, you can now play Salary Cap online or _.",
+        "answer": "Single Player"
+      },
+      {
+        "question": "The Gatorade RX Bottle provides a _ MyPoints boost for workouts.",
+        "answer": "20%"
+      }
+    ]
   }
 ]
